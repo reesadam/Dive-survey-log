@@ -1,47 +1,5 @@
 {
-  "trips": [
-    {
-      "id": "t1791485825877",
-      "date": "2026-10-08",
-      "site": "Ahdh",
-      "sea": "Rough",
-      "vis": "4",
-      "wind": "No wind",
-      "temp": "14",
-      "obs": [
-        {
-          "habitat": "Sand",
-          "depth": "8",
-          "height": "9",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Hottentot",
-              "lengths": [
-                {
-                  "len": "10",
-                  "count": "5"
-                },
-                {
-                  "len": "5",
-                  "count": "1"
-                }
-              ]
-            },
-            {
-              "name": "Butterfish",
-              "lengths": [
-                {
-                  "len": "14",
-                  "count": "1"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ],
+  "trips": [],
   "species": [
     "Hottentot",
     "Roman",
@@ -50,6 +8,7 @@
     "Milkfish"
   ],
   "deleted": [
-    "t1791485944297"
+    "t1791485944297",
+    "t1791485825877"
   ]
 }
