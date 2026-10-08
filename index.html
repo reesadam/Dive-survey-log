@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dive Survey Log</title>
+<style>
+:root{--bg:#f4f7f9;--card:#fff;--tx:#14232e;--mut:#5d7080;--ac:#0a7ea4;--bd:#d3dde4;--err:#c0392b;--ok:#1e8449;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1a22;--card:#16262f;--tx:#e6eef3;--mut:#93a8b6;--ac:#3fb0d6;--bd:#2a3f4b;--err:#ff7b6b;--ok:#5fd08a}}
+:root[data-theme="dark"]{--bg:#0e1a22;--card:#16262f;--tx:#e6eef3;--mut:#93a8b6;--ac:#3fb0d6;--bd:#2a3f4b;--err:#ff7b6b;--ok:#5fd08a}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.4 system-ui,-apple-system,sans-serif}
+main{max-width:640px;margin:0 auto;padding:14px}
+h1{font-size:22px;margin:6px 0 12px}h2{font-size:17px;margin:0 0 10px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:14px;margin-bottom:12px}
+label{display:block;font-size:13px;color:var(--mut);margin:10px 0 3px}label b{color:var(--err)}
+input,select,textarea{width:100%;font:inherit;color:var(--tx);background:var(--bg);border:1px solid var(--bd);border-radius:8px;padding:10px;min-height:44px}
+.row{display:flex;gap:8px;align-items:flex-end}.row>*{flex:1}.row>.sm{flex:0 0 auto}
+button{font:inherit;border:0;border-radius:8px;padding:10px 14px;min-height:44px;background:var(--ac);color:#fff;font-weight:600}
+button.sec{background:transparent;color:var(--ac);border:1px solid var(--ac)}button.del{background:transparent;color:var(--err);padding:6px 10px;min-height:0}
+button.full{width:100%;margin-top:12px}
+.msg{color:var(--err);font-size:14px;margin-top:8px}.ok{color:var(--ok)}.mut{color:var(--mut);font-size:14px}
+.sp{border:1px solid var(--bd);border-radius:10px;padding:10px;margin-top:10px}.sp h3{margin:0 0 4px;font-size:16px;display:flex;justify-content:space-between;align-items:center}
+.chk{display:flex;gap:10px;align-items:center;margin-top:12px;font-size:16px;color:var(--tx)}.chk input{width:24px;height:24px;min-height:0}
+.item{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:10px 0;border-top:1px solid var(--bd)}.item:first-child{border-top:0}
+.item>div:first-child{flex:1;min-width:0}
+</style></head><body><main id="app"></main>
+<script>
+const SEA=["Calm","Slight","Moderate","Rough","Very rough"];
+const WIND=["N","NE","E","SE","S","SW","W","NW","No wind"];
+const VIS=Array.from({length:30},(_,i)=>i+1);
+const TEMP=Array.from({length:25},(_,i)=>i+8);
+const DEF_SP=["Hottentot","Roman","Steentjie","Butterfish","Milkfish"];
+let trips=[],species=DEF_SP.slice(),view="home",cur=null,draft=null,msg="",tripMsg="";
+const app=document.getElementById("app");
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const opts=(arr,sel,ph,suf="")=>`<option value="">${ph}</option>`+arr.map(v=>`<option ${String(v)===String(sel)?"selected":""} value="${esc(v)}">${esc(v)}${suf}</option>`).join("");
+const today=()=>new Date().toISOString().slice(0,10);
+let tf={date:today(),site:"",sea:"",vis:"",wind:"",temp:""};
+
+const REPO="reesadam/Dive-survey-log",PATH="data/survey.json";
+let sync="",sha=null;
+const tok=()=>{try{return localStorage.getItem("gh_token")||""}catch(e){return ""}};
+const b64=t=>btoa(unescape(encodeURIComponent(t)));
+const unb64=t=>decodeURIComponent(escape(atob(t.replace(/\n/g,""))));
+const gh=(m,body)=>fetch(`https://api.github.com/repos/${REPO}/contents/${PATH}`,{method:m,headers:{Authorization:"Bearer "+tok(),Accept:"application/vnd.github+json"},body:body?JSON.stringify(body):undefined});
+function saveLocal(){try{localStorage.setItem("trips",JSON.stringify(trips));localStorage.setItem("species",JSON.stringify(species))}catch(e){}}
+async function pull(){
+  if(!tok())return;
+  try{
+    const r=await gh("GET");
+    if(r.status===404){sync="Connected. Repo has no data file yet.";return}
+    if(!r.ok){sync="GitHub error "+r.status+" – check token.";return}
+    const j=await r.json();sha=j.sha;const d=JSON.parse(unb64(j.content));
+    const m=new Map(trips.map(t=>[t.id,t]));(d.trips||[]).forEach(t=>m.set(t.id,t));
+    trips=[...m.values()].sort((a,b)=>(b.date||"").localeCompare(a.date||""));
+    species=[...new Set([...species,...(d.species||[])])];saveLocal();sync="Synced with GitHub.";
+  }catch(e){sync="Could not reach GitHub (offline?). Saved on this device."}
+}
+async function push(){
+  if(!tok()){sync="Saved on this device only. Add a GitHub token to sync.";return}
+  try{
+    for(let i=0;i<2;i++){
+      const r=await gh("PUT",{message:"Update survey data "+new Date().toISOString(),content:b64(JSON.stringify({trips,species},null,2)),...(sha?{sha}:{})});
+      if(r.ok){sha=(await r.json()).content.sha;sync="Saved to GitHub ✓";return}
+      if(r.status===409||r.status===422){await pull();continue}
+      sync="GitHub error "+r.status+" – saved on this device.";return;
+    }
+  }catch(e){sync="Offline – saved on this device. Will sync on next save."}
+}
+async function init(){
+  try{trips=JSON.parse(localStorage.getItem("trips")||"[]");const sp=JSON.parse(localStorage.getItem("species")||"null");if(sp)species=sp}catch(e){}
+  render();await pull();render();
+}
+async function saveTrip(t){
+  const i=trips.findIndex(x=>x.id===t.id);if(i<0)trips.unshift(t);else trips[i]=t;
+  saveLocal();await push();
+}
+async function saveSpecies(){saveLocal();await push()}
+const trip=()=>trips.find(t=>t.id===cur);
+
+function render(){
+  if(view==="home")return home();
+  if(view==="trip")return tripView();
+  if(view==="obs")return obsView();
+}
+function banner(){return sync?`<p class="mut">${esc(sync)}</p>`:""}
+function home(){
+  app.innerHTML=`<h1>🐟 Dive Survey Log</h1>${banner()}
+  <div class="card"><h2>New trip</h2>
+  <label>Date <b>*</b></label><input type="date" data-t="date" value="${esc(tf.date)}">
+  <label>Name of site <b>*</b></label><input type="text" data-t="site" value="${esc(tf.site)}" autocapitalize="words">
+  <label>Sea state</label><select data-t="sea">${opts(SEA,tf.sea,"Select…")}</select>
+  <label>Visibility (m)</label><select data-t="vis">${opts(VIS,tf.vis,"Select…"," m")}</select>
+  <label>Wind direction</label><select data-t="wind">${opts(WIND,tf.wind,"Select…")}</select>
+  <label>Water temperature (°C)</label><select data-t="temp">${opts(TEMP,tf.temp,"Select…"," °C")}</select>
+  ${tripMsg?`<div class="msg">${esc(tripMsg)}</div>`:""}
+  <button class="full" id="startTrip">Start trip</button></div>
+  <div class="card"><h2>GitHub sync</h2><label>Personal access token (stored on this device only)</label>
+  <input type="password" id="tok" placeholder="${tok()?"Token saved":"github_pat_…"}" autocomplete="off">
+  <button class="sec full" id="saveTok">Save token &amp; sync</button></div>
+  <div class="card"><h2>Saved trips (${trips.length})</h2>
+  ${trips.length?trips.map(t=>`<div class="item"><div><b>${esc(t.site)}</b><div class="mut">${esc(t.date)} · ${(t.obs||[]).length} obs</div></div><button class="sec" data-open="${esc(t.id)}">Open</button></div>`).join(""):'<p class="mut">No trips yet.</p>'}
+  ${trips.length?`<div class="row" style="margin-top:12px"><button class="sec" id="expCsv">Export CSV</button><button class="sec" id="expJson">Export JSON</button></div>`:""}
+  </div>`;
+}
+function tripView(){
+  const t=trip();if(!t){view="home";return render()}
+  app.innerHTML=`<button class="sec" id="back">← All trips</button>
+  <h1 style="margin-top:12px">${esc(t.site)}</h1>${banner()}
+  <div class="card mut">${esc(t.date)} · Sea: ${esc(t.sea||"–")} · Vis: ${t.vis?esc(t.vis)+" m":"–"} · Wind: ${esc(t.wind||"–")} · Temp: ${t.temp?esc(t.temp)+" °C":"–"}</div>
+  ${(t.obs||[]).map((o,i)=>`<div class="card"><h2>Observation ${i+1}</h2>
+  <div class="mut">${esc(o.habitat||"No habitat description")} · Depth ${esc(o.depth||"–")} m · Height ${esc(o.height||"–")} m</div>
+  ${o.noFish?'<p><b>No fish</b></p>':(o.species||[]).map(s=>`<div><b>${esc(s.name)}</b>: ${s.lengths.map(l=>`${esc(l.len)} cm ×${esc(l.count)}`).join(", ")}</div>`).join("")}
+  <button class="del" data-delobs="${i}">Delete</button></div>`).join("")}
+  <button class="full" id="addObs">+ Observation ${(t.obs||[]).length+1}</button>`;
+}
+function newDraft(){return{habitat:"",depth:"",height:"",noFish:false,species:[],pick:"",adding:false,newName:""}}
+function obsView(){
+  const t=trip(),d=draft,n=(t.obs||[]).length+1;
+  app.innerHTML=`<h1>Observation ${n}</h1><p class="mut">${esc(t.site)} · ${esc(t.date)}</p>
+  <div class="card"><label>Habitat description</label><textarea rows="2" data-d="habitat">${esc(d.habitat)}</textarea>
+  <div class="row"><div><label>Depth (m)</label><input type="number" inputmode="decimal" step="0.1" min="0" data-d="depth" value="${esc(d.depth)}"></div>
+  <div><label>Height (m)</label><input type="number" inputmode="decimal" step="0.1" min="0" data-d="height" value="${esc(d.height)}"></div></div>
+  <label class="chk"><input type="checkbox" id="nofish" ${d.noFish?"checked":""}> No fish</label></div>
+  ${d.noFish?"":`<div class="card"><h2>Species</h2>
+  ${d.species.map((s,si)=>`<div class="sp"><h3>${esc(s.name)}<button class="del" data-delsp="${si}">Remove</button></h3>
+  ${s.lengths.map((l,li)=>`<div class="row"><div><label>Length (cm)</label><input type="number" inputmode="decimal" min="0" data-sp="${si}" data-li="${li}" data-f="len" value="${esc(l.len)}"></div>
+  <div><label>Number seen</label><input type="number" inputmode="numeric" min="1" data-sp="${si}" data-li="${li}" data-f="count" value="${esc(l.count)}"></div>
+  ${s.lengths.length>1?`<button class="del sm" data-dell="${si}:${li}">✕</button>`:""}</div>`).join("")}
+  <button class="sec" style="margin-top:10px" data-addl="${si}">+ Another length</button></div>`).join("")}
+  <label>Add species</label>
+  <select id="pick">${opts(species,d.pick,"Select species…")}<option value="__new" ${d.adding?"selected":""}>➕ Add new species…</option></select>
+  ${d.adding?`<div class="row" style="margin-top:8px"><input type="text" id="newName" placeholder="New species name" value="${esc(d.newName)}" autocapitalize="words"><button class="sm" id="saveNew">Save</button></div>`:""}
+  ${msg?`<div class="msg">${esc(msg)}</div>`:""}</div>`}
+  <div class="row"><button class="sec" id="cancelObs">Cancel</button><button id="saveObs">Save observation</button></div>`;
+}
+
+app.addEventListener("input",e=>{
+  const el=e.target;
+  if(el.dataset.t)tf[el.dataset.t]=el.value;
+  else if(el.dataset.d)draft[el.dataset.d]=el.value;
+  else if(el.id==="newName")draft.newName=el.value;
+  else if(el.dataset.sp!==undefined){draft.species[+el.dataset.sp].lengths[+el.dataset.li][el.dataset.f]=el.value}
+});
+app.addEventListener("change",e=>{
+  const el=e.target;
+  if(el.id==="nofish"){draft.noFish=el.checked;msg="";render()}
+  else if(el.id==="pick"){
+    msg="";
+    if(el.value==="__new"){draft.adding=true;draft.pick="";return render()}
+    draft.adding=false;
+    if(!el.value)return;
+    if(draft.species.some(s=>s.name===el.value)){msg=`${el.value} has already been entered for this observation.`;draft.pick="";return render()}
+    draft.species.push({name:el.value,lengths:[{len:"",count:"1"}]});draft.pick="";render();
+  }
+});
+app.addEventListener("click",async e=>{
+  const b=e.target.closest("button");if(!b)return;
+  const ds=b.dataset,id=b.id;
+  if(id==="startTrip"){
+    if(!tf.date||!tf.site.trim()){tripMsg="Date and name of site are required.";return render()}
+    tripMsg="";const t={id:"t"+Date.now(),date:tf.date,site:tf.site.trim(),sea:tf.sea,vis:tf.vis,wind:tf.wind,temp:tf.temp,obs:[]};
+    await saveTrip(t);if(!trips.find(x=>x.id===t.id))trips.unshift(t);cur=t.id;tf={date:today(),site:"",sea:"",vis:"",wind:"",temp:""};view="trip";render();
+  }else if(ds.open){cur=ds.open;view="trip";render()}
+  else if(id==="saveTok"){const v=document.getElementById("tok").value.trim();if(v){try{localStorage.setItem("gh_token",v)}catch(e){}}sync="Syncing…";render();await pull();if(tok()&&sync.startsWith("Synced")||sync.startsWith("Connected"))await push();render()}
+  else if(id==="back"){view="home";render()}
+  else if(id==="addObs"){draft=newDraft();msg="";view="obs";render()}
+  else if(id==="cancelObs"){view="trip";render()}
+  else if(ds.delobs!==undefined){if(!confirm("Delete this observation?"))return;const t=trip();t.obs.splice(+ds.delobs,1);await saveTrip(t);render()}
+  else if(ds.delsp!==undefined){draft.species.splice(+ds.delsp,1);msg="";render()}
+  else if(ds.addl!==undefined){draft.species[+ds.addl].lengths.push({len:"",count:"1"});render()}
+  else if(ds.dell){const [s,l]=ds.dell.split(":").map(Number);draft.species[s].lengths.splice(l,1);render()}
+  else if(id==="saveNew"){
+    const nm=draft.newName.trim();if(!nm)return;
+    const ex=species.find(s=>s.toLowerCase()===nm.toLowerCase());
+    if(ex){msg=`${ex} is already in the species list.`;draft.newName="";draft.adding=false;return render()}
+    const name=nm.charAt(0).toUpperCase()+nm.slice(1);species.push(name);saveSpecies();
+    draft.species.push({name,lengths:[{len:"",count:"1"}]});draft.adding=false;draft.newName="";msg="";render();
+  }else if(id==="saveObs"){
+    if(!draft.noFish){
+      if(!draft.species.length){msg="Add at least one species, or tick No fish.";return render()}
+      for(const s of draft.species)for(const l of s.lengths){if(!l.len||!(+l.count>=1)){msg=`Enter a length and number for ${s.name}.`;return render()}}
+    }
+    const t=trip();t.obs=t.obs||[];
+    t.obs.push({habitat:draft.habitat.trim(),depth:draft.depth,height:draft.height,noFish:draft.noFish,species:draft.noFish?[]:draft.species.map(s=>({name:s.name,lengths:s.lengths.map(l=>({len:l.len,count:l.count}))}))});
+    await saveTrip(t);view="trip";render();
+  }else if(id==="expCsv"||id==="expJson"){
+        let data,filename;
+    if(id==="expJson"){data=JSON.stringify(trips,null,2);filename="dive-log.json"}
+    else{
+      const q=v=>`"${String(v??"").replace(/"/g,'""')}"`;
+      const rows=[["date","site","sea_state","visibility_m","wind","water_temp_c","observation","habitat","depth_m","height_m","species","length_cm","number_seen"]];
+      trips.forEach(t=>(t.obs||[]).forEach((o,i)=>{
+        const base=[t.date,t.site,t.sea,t.vis,t.wind,t.temp,i+1,o.habitat,o.depth,o.height];
+        if(o.noFish||!(o.species||[]).length)rows.push([...base,"No fish","",""]);
+        else o.species.forEach(s=>s.lengths.forEach(l=>rows.push([...base,s.name,l.len,l.count])));
+      }));
+      data=rows.map(r=>r.map(q).join(",")).join("\n");filename="dive-log.csv";
+    }
+    const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([data]));a.download=filename;a.click();
+  }
+});
+init();
+</script></body></html>
