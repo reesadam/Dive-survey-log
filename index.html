@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no">
 <link rel="icon" type="image/svg+xml" href="icon.svg">
 <link rel="apple-touch-icon" href="icon-180.png">
 <link rel="manifest" href="manifest.json">
@@ -27,6 +27,8 @@ button.full{width:100%;margin-top:12px}
 .chk{display:flex;gap:10px;align-items:center;margin-top:12px;font-size:16px;color:var(--tx)}.chk input{width:24px;height:24px;min-height:0}
 .item{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:10px 0;border-top:1px solid var(--bd)}.item:first-child{border-top:0}
 .item>div:first-child{flex:1;min-width:0}
+input[type=date]{-webkit-appearance:none;appearance:none;display:block;min-width:0;max-width:100%;width:100%;text-align:left;line-height:1.2}input[type=date]::-webkit-date-and-time-value{text-align:left;min-height:1.2em}
+html,body{overflow-x:hidden;touch-action:manipulation;-webkit-text-size-adjust:100%}
 </style></head><body><main id="app"></main>
 <script>
 const SEA=["Calm","Slight","Moderate","Rough","Very rough"];
@@ -210,5 +212,7 @@ app.addEventListener("click",async e=>{
     const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([data]));a.download=filename;a.click();
   }
 });
+["gesturestart","gesturechange","gestureend"].forEach(n=>document.addEventListener(n,e=>e.preventDefault()));
+let _lt=0;document.addEventListener("touchend",e=>{const t=Date.now();if(t-_lt<300)e.preventDefault();_lt=t},{passive:false});
 init();
 </script></body></html>
