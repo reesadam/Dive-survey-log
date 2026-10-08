@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" type="image/svg+xml" href="icon.svg">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#073553">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Dive Log">
 <title>Dive Survey Log</title>
 <style>
 :root{--bg:#f4f7f9;--card:#fff;--tx:#14232e;--mut:#5d7080;--ac:#0a7ea4;--bd:#d3dde4;--err:#c0392b;--ok:#1e8449;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
@@ -27,8 +33,10 @@ const SEA=["Calm","Slight","Moderate","Rough","Very rough"];
 const WIND=["N","NE","E","SE","S","SW","W","NW","No wind"];
 const VIS=Array.from({length:30},(_,i)=>i+1);
 const TEMP=Array.from({length:25},(_,i)=>i+8);
+const DEPTH=Array.from({length:81},(_,i)=>(i*0.5).toFixed(1));
+const HEIGHT=Array.from({length:51},(_,i)=>(i*0.1).toFixed(1));
 const DEF_SP=["Hottentot","Roman","Steentjie","Butterfish","Milkfish"];
-let trips=[],species=DEF_SP.slice(),view="home",cur=null,draft=null,msg="",tripMsg="";
+let deleted=[],trips=[],species=DEF_SP.slice(),view="home",cur=null,draft=null,msg="",tripMsg="";
 const app=document.getElementById("app");
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const opts=(arr,sel,ph,suf="")=>`<option value="">${ph}</option>`+arr.map(v=>`<option ${String(v)===String(sel)?"selected":""} value="${esc(v)}">${esc(v)}${suf}</option>`).join("");
@@ -41,7 +49,7 @@ const tok=()=>{try{return localStorage.getItem("gh_token")||""}catch(e){return "
 const b64=t=>btoa(unescape(encodeURIComponent(t)));
 const unb64=t=>decodeURIComponent(escape(atob(t.replace(/\n/g,""))));
 const gh=(m,body)=>fetch(`https://api.github.com/repos/${REPO}/contents/${PATH}`,{method:m,headers:{Authorization:"Bearer "+tok(),Accept:"application/vnd.github+json"},body:body?JSON.stringify(body):undefined});
-function saveLocal(){try{localStorage.setItem("trips",JSON.stringify(trips));localStorage.setItem("species",JSON.stringify(species))}catch(e){}}
+function saveLocal(){try{localStorage.setItem("trips",JSON.stringify(trips));localStorage.setItem("species",JSON.stringify(species));localStorage.setItem("deleted",JSON.stringify(deleted))}catch(e){}}
 async function pull(){
   if(!tok())return;
   try{
@@ -49,7 +57,7 @@ async function pull(){
     if(r.status===404){sync="Connected. Repo has no data file yet.";return}
     if(!r.ok){sync="GitHub error "+r.status+" – check token.";return}
     const j=await r.json();sha=j.sha;const d=JSON.parse(unb64(j.content));
-    const m=new Map(trips.map(t=>[t.id,t]));(d.trips||[]).forEach(t=>m.set(t.id,t));
+    deleted=[...new Set([...deleted,...(d.deleted||[])])];const m=new Map(trips.map(t=>[t.id,t]));(d.trips||[]).forEach(t=>m.set(t.id,t));deleted.forEach(x=>m.delete(x));
     trips=[...m.values()].sort((a,b)=>(b.date||"").localeCompare(a.date||""));
     species=[...new Set([...species,...(d.species||[])])];saveLocal();sync="Synced with GitHub.";
   }catch(e){sync="Could not reach GitHub (offline?). Saved on this device."}
@@ -58,7 +66,7 @@ async function push(){
   if(!tok()){sync="Saved on this device only. Add a GitHub token to sync.";return}
   try{
     for(let i=0;i<2;i++){
-      const r=await gh("PUT",{message:"Update survey data "+new Date().toISOString(),content:b64(JSON.stringify({trips,species},null,2)),...(sha?{sha}:{})});
+      const r=await gh("PUT",{message:"Update survey data "+new Date().toISOString(),content:b64(JSON.stringify({trips,species,deleted},null,2)),...(sha?{sha}:{})});
       if(r.ok){sha=(await r.json()).content.sha;sync="Saved to GitHub ✓";return}
       if(r.status===409||r.status===422){await pull();continue}
       sync="GitHub error "+r.status+" – saved on this device.";return;
@@ -66,7 +74,7 @@ async function push(){
   }catch(e){sync="Offline – saved on this device. Will sync on next save."}
 }
 async function init(){
-  try{trips=JSON.parse(localStorage.getItem("trips")||"[]");const sp=JSON.parse(localStorage.getItem("species")||"null");if(sp)species=sp}catch(e){}
+  try{trips=JSON.parse(localStorage.getItem("trips")||"[]");const sp=JSON.parse(localStorage.getItem("species")||"null");deleted=JSON.parse(localStorage.getItem("deleted")||"[]");if(sp)species=sp}catch(e){}
   render();await pull();render();
 }
 async function saveTrip(t){
@@ -97,7 +105,7 @@ function home(){
   <input type="password" id="tok" placeholder="${tok()?"Token saved":"github_pat_…"}" autocomplete="off">
   <button class="sec full" id="saveTok">Save token &amp; sync</button></div>
   <div class="card"><h2>Saved trips (${trips.length})</h2>
-  ${trips.length?trips.map(t=>`<div class="item"><div><b>${esc(t.site)}</b><div class="mut">${esc(t.date)} · ${(t.obs||[]).length} obs</div></div><button class="sec" data-open="${esc(t.id)}">Open</button></div>`).join(""):'<p class="mut">No trips yet.</p>'}
+  ${trips.length?trips.map(t=>`<div class="item"><div><b>${esc(t.site)}</b><div class="mut">${esc(t.date)} · ${(t.obs||[]).length} obs</div></div><div class="row" style="flex:0 0 auto"><button class="sec" data-open="${esc(t.id)}">Open</button><button class="del" data-deltrip="${esc(t.id)}">Delete</button></div></div>`).join(""):'<p class="mut">No trips yet.</p>'}
   ${trips.length?`<div class="row" style="margin-top:12px"><button class="sec" id="expCsv">Export CSV</button><button class="sec" id="expJson">Export JSON</button></div>`:""}
   </div>`;
 }
@@ -110,15 +118,16 @@ function tripView(){
   <div class="mut">${esc(o.habitat||"No habitat description")} · Depth ${esc(o.depth||"–")} m · Height ${esc(o.height||"–")} m</div>
   ${o.noFish?'<p><b>No fish</b></p>':(o.species||[]).map(s=>`<div><b>${esc(s.name)}</b>: ${s.lengths.map(l=>`${esc(l.len)} cm ×${esc(l.count)}`).join(", ")}</div>`).join("")}
   <button class="del" data-delobs="${i}">Delete</button></div>`).join("")}
-  <button class="full" id="addObs">+ Observation ${(t.obs||[]).length+1}</button>`;
+  <button class="full" id="addObs">+ Observation ${(t.obs||[]).length+1}</button>
+  <button class="del full" data-deltrip="${esc(t.id)}">Delete this trip</button>`;
 }
 function newDraft(){return{habitat:"",depth:"",height:"",noFish:false,species:[],pick:"",adding:false,newName:""}}
 function obsView(){
   const t=trip(),d=draft,n=(t.obs||[]).length+1;
   app.innerHTML=`<h1>Observation ${n}</h1><p class="mut">${esc(t.site)} · ${esc(t.date)}</p>
   <div class="card"><label>Habitat description</label><textarea rows="2" data-d="habitat">${esc(d.habitat)}</textarea>
-  <div class="row"><div><label>Depth (m)</label><input type="number" inputmode="decimal" step="0.1" min="0" data-d="depth" value="${esc(d.depth)}"></div>
-  <div><label>Height (m)</label><input type="number" inputmode="decimal" step="0.1" min="0" data-d="height" value="${esc(d.height)}"></div></div>
+  <div class="row"><div><label>Depth (m)</label><select data-d="depth">${opts(DEPTH,d.depth,"Select…")}</select></div>
+  <div><label>Height (m)</label><select data-d="height">${opts(HEIGHT,d.height,"Select…")}</select></div></div>
   <label class="chk"><input type="checkbox" id="nofish" ${d.noFish?"checked":""}> No fish</label></div>
   ${d.noFish?"":`<div class="card"><h2>Species</h2>
   ${d.species.map((s,si)=>`<div class="sp"><h3>${esc(s.name)}<button class="del" data-delsp="${si}">Remove</button></h3>
@@ -159,6 +168,9 @@ app.addEventListener("click",async e=>{
     if(!tf.date||!tf.site.trim()){tripMsg="Date and name of site are required.";return render()}
     tripMsg="";const t={id:"t"+Date.now(),date:tf.date,site:tf.site.trim(),sea:tf.sea,vis:tf.vis,wind:tf.wind,temp:tf.temp,obs:[]};
     await saveTrip(t);if(!trips.find(x=>x.id===t.id))trips.unshift(t);cur=t.id;tf={date:today(),site:"",sea:"",vis:"",wind:"",temp:""};view="trip";render();
+  }else if(ds.deltrip){
+    const t=trips.find(x=>x.id===ds.deltrip);if(!t||!confirm(`Delete trip "${t.site}" (${t.date}) and all its observations? This cannot be undone.`))return;
+    trips=trips.filter(x=>x.id!==ds.deltrip);if(!deleted.includes(ds.deltrip))deleted.push(ds.deltrip);saveLocal();view="home";render();await push();render();
   }else if(ds.open){cur=ds.open;view="trip";render()}
   else if(id==="saveTok"){const v=document.getElementById("tok").value.trim();if(v){try{localStorage.setItem("gh_token",v)}catch(e){}}sync="Syncing…";render();await pull();if(tok()&&sync.startsWith("Synced")||sync.startsWith("Connected"))await push();render()}
   else if(id==="back"){view="home";render()}
