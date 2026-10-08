@@ -29,6 +29,7 @@ button.full{width:100%;margin-top:12px}
 .item>div:first-child{flex:1;min-width:0}
 input[type=date]{-webkit-appearance:none;appearance:none;display:block;min-width:0;max-width:100%;width:100%;text-align:left;line-height:1.2}input[type=date]::-webkit-date-and-time-value{text-align:left;min-height:1.2em}
 html,body{overflow-x:hidden;touch-action:manipulation;-webkit-text-size-adjust:100%}
+select.len{border-left:6px solid #0a7ea4}select.cnt{border-left:6px solid #ff7a2f}
 </style></head><body><main id="app"></main>
 <script>
 const SEA=["Calm","Slight","Moderate","Rough","Very rough"];
@@ -37,6 +38,9 @@ const VIS=Array.from({length:30},(_,i)=>i+1);
 const TEMP=Array.from({length:25},(_,i)=>i+8);
 const DEPTH=Array.from({length:81},(_,i)=>(i*0.5).toFixed(1));
 const HEIGHT=Array.from({length:51},(_,i)=>(i*0.1).toFixed(1));
+const LENS=[...Array.from({length:40},(_,i)=>i+1),...Array.from({length:12},(_,i)=>45+i*5)];
+const CNTS=Array.from({length:100},(_,i)=>i+1);
+const fopts=(arr,sel,ph,f)=>`<option value="">${ph}</option>`+arr.map(v=>`<option value="${v}" ${String(v)===String(sel)?"selected":""}>${f(v)}</option>`).join("");
 const DEF_SP=["Hottentot","Roman","Steentjie","Butterfish","Milkfish"];
 let deleted=[],trips=[],species=DEF_SP.slice(),view="home",cur=null,draft=null,msg="",tripMsg="";
 const app=document.getElementById("app");
@@ -118,7 +122,7 @@ function tripView(){
   <div class="card mut">${esc(t.date)} · Sea: ${esc(t.sea||"–")} · Vis: ${t.vis?esc(t.vis)+" m":"–"} · Wind: ${esc(t.wind||"–")} · Temp: ${t.temp?esc(t.temp)+" °C":"–"}</div>
   ${(t.obs||[]).map((o,i)=>`<div class="card"><h2>Observation ${i+1}</h2>
   <div class="mut">${esc(o.habitat||"No habitat description")} · Depth ${esc(o.depth||"–")} m · Height ${esc(o.height||"–")} m</div>
-  ${o.noFish?'<p><b>No fish</b></p>':(o.species||[]).map(s=>`<div><b>${esc(s.name)}</b>: ${s.lengths.map(l=>`${esc(l.len)} cm ×${esc(l.count)}`).join(", ")}</div>`).join("")}
+  ${o.noFish?'<p><b>No fish</b></p>':(o.species||[]).map(s=>`<div><b>${esc(s.name)}</b>: ${s.lengths.map(l=>`${l.len?esc(l.len)+" cm":"length not recorded"} ×${esc(l.count)}`).join(", ")}</div>`).join("")}
   <button class="del" data-delobs="${i}">Delete</button></div>`).join("")}
   <button class="full" id="addObs">+ Observation ${(t.obs||[]).length+1}</button>
   <button class="del full" data-deltrip="${esc(t.id)}">Delete this trip</button>`;
@@ -133,8 +137,8 @@ function obsView(){
   <label class="chk"><input type="checkbox" id="nofish" ${d.noFish?"checked":""}> No fish</label></div>
   ${d.noFish?"":`<div class="card"><h2>Species</h2>
   ${d.species.map((s,si)=>`<div class="sp"><h3>${esc(s.name)}<button class="del" data-delsp="${si}">Remove</button></h3>
-  ${s.lengths.map((l,li)=>`<div class="row"><div><label>Length (cm)</label><input type="number" inputmode="decimal" min="0" data-sp="${si}" data-li="${li}" data-f="len" value="${esc(l.len)}"></div>
-  <div><label>Number seen</label><input type="number" inputmode="numeric" min="1" data-sp="${si}" data-li="${li}" data-f="count" value="${esc(l.count)}"></div>
+  ${s.lengths.map((l,li)=>`<div class="row"><div><label>📏 Length</label><select class="len" data-sp="${si}" data-li="${li}" data-f="len">${fopts(LENS,l.len,"Select…",v=>v+" cm")}</select></div>
+  <div><label>🐟 Number seen</label><select class="cnt" data-sp="${si}" data-li="${li}" data-f="count">${fopts(CNTS,l.count,"Select…",v=>"× "+v+" fish")}</select></div>
   ${s.lengths.length>1?`<button class="del sm" data-dell="${si}:${li}">✕</button>`:""}</div>`).join("")}
   <button class="sec" style="margin-top:10px" data-addl="${si}">+ Another length</button></div>`).join("")}
   <label>Add species</label>
@@ -191,7 +195,9 @@ app.addEventListener("click",async e=>{
   }else if(id==="saveObs"){
     if(!draft.noFish){
       if(!draft.species.length){msg="Add at least one species, or tick No fish.";return render()}
-      for(const s of draft.species)for(const l of s.lengths){if(!l.len||!(+l.count>=1)){msg=`Enter a length and number for ${s.name}.`;return render()}}
+      const noLen=[];
+      for(const s of draft.species)for(const l of s.lengths){if(!(+l.count>=1)){msg=`Select the number seen for ${s.name}.`;return render()}if(!l.len&&!noLen.includes(s.name))noLen.push(s.name)}
+      if(noLen.length&&!confirm(`No length entered for ${noLen.join(", ")}.\n\nAre you sure you want to save without a length?`))return;
     }
     const t=trip();t.obs=t.obs||[];
     t.obs.push({habitat:draft.habitat.trim(),depth:draft.depth,height:draft.height,noFish:draft.noFish,species:draft.noFish?[]:draft.species.map(s=>({name:s.name,lengths:s.lengths.map(l=>({len:l.len,count:l.count}))}))});
