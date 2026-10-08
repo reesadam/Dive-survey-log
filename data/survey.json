@@ -8,7 +8,38 @@
       "vis": "4",
       "wind": "No wind",
       "temp": "14",
-      "obs": []
+      "obs": [
+        {
+          "habitat": "Sand",
+          "depth": "8",
+          "height": "9",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "10",
+                  "count": "5"
+                },
+                {
+                  "len": "5",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "14",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "species": [
