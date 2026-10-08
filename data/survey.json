@@ -1,16 +1,6 @@
 {
   "trips": [
     {
-      "id": "t1791485944297",
-      "date": "2026-10-08",
-      "site": "Nz",
-      "sea": "",
-      "vis": "",
-      "wind": "",
-      "temp": "",
-      "obs": []
-    },
-    {
       "id": "t1791485825877",
       "date": "2026-10-08",
       "site": "Ahdh",
@@ -58,5 +48,8 @@
     "Steentjie",
     "Butterfish",
     "Milkfish"
+  ],
+  "deleted": [
+    "t1791485944297"
   ]
 }
