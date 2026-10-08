@@ -8,15 +8,7 @@
       "vis": "",
       "wind": "",
       "temp": "",
-      "obs": [
-        {
-          "habitat": "",
-          "depth": "",
-          "height": "",
-          "noFish": true,
-          "species": []
-        }
-      ]
+      "obs": []
     },
     {
       "id": "t1791485825877",
