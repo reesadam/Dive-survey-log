@@ -49,6 +49,7 @@ const opts=(arr,sel,ph,suf="")=>`<option value="">${ph}</option>`+arr.map(v=>`<o
 const today=()=>new Date().toISOString().slice(0,10);
 let tf={date:today(),site:"",sea:"",vis:"",wind:"",temp:""};
 
+const okey=o=>o.id||JSON.stringify(o);
 const REPO="reesadam/Dive-survey-log",PATH="data/survey.json";
 let sync="",sha=null;
 const tok=()=>{try{return localStorage.getItem("gh_token")||""}catch(e){return ""}};
@@ -63,7 +64,10 @@ async function pull(){
     if(r.status===404){sync="Connected. Repo has no data file yet.";return}
     if(!r.ok){sync="GitHub error "+r.status+" – check token.";return}
     const j=await r.json();sha=j.sha;const d=JSON.parse(unb64(j.content));
-    deleted=[...new Set([...deleted,...(d.deleted||[])])];const m=new Map(trips.map(t=>[t.id,t]));(d.trips||[]).forEach(t=>m.set(t.id,t));deleted.forEach(x=>m.delete(x));
+    deleted=[...new Set([...deleted,...(d.deleted||[])])];const m=new Map(trips.map(t=>[t.id,t]));
+    (d.trips||[]).forEach(rt=>{const lt=m.get(rt.id);if(!lt){m.set(rt.id,rt);return}
+      const seen=new Set((rt.obs||[]).map(okey));m.set(rt.id,{...rt,obs:[...(rt.obs||[]),...(lt.obs||[]).filter(o=>!seen.has(okey(o)))]})});
+    deleted.forEach(x=>m.delete(x));m.forEach(t=>{t.obs=(t.obs||[]).filter(o=>!deleted.includes("obs:"+okey(o)))});
     trips=[...m.values()].sort((a,b)=>(b.date||"").localeCompare(a.date||""));
     species=[...new Set([...species,...(d.species||[])])];saveLocal();sync="Synced with GitHub.";
   }catch(e){sync="Could not reach GitHub (offline?). Saved on this device."}
@@ -182,7 +186,7 @@ app.addEventListener("click",async e=>{
   else if(id==="back"){view="home";render()}
   else if(id==="addObs"){draft=newDraft();msg="";view="obs";render()}
   else if(id==="cancelObs"){view="trip";render()}
-  else if(ds.delobs!==undefined){if(!confirm("Delete this observation?"))return;const t=trip();t.obs.splice(+ds.delobs,1);await saveTrip(t);render()}
+  else if(ds.delobs!==undefined){if(!confirm("Delete this observation?"))return;const t=trip();deleted.push("obs:"+okey(t.obs[+ds.delobs]));t.obs.splice(+ds.delobs,1);await saveTrip(t);render()}
   else if(ds.delsp!==undefined){draft.species.splice(+ds.delsp,1);msg="";render()}
   else if(ds.addl!==undefined){draft.species[+ds.addl].lengths.push({len:"",count:"1"});render()}
   else if(ds.dell){const [s,l]=ds.dell.split(":").map(Number);draft.species[s].lengths.splice(l,1);render()}
@@ -200,7 +204,7 @@ app.addEventListener("click",async e=>{
       if(noLen.length&&!confirm(`No length entered for ${noLen.join(", ")}.\n\nAre you sure you want to save without a length?`))return;
     }
     const t=trip();t.obs=t.obs||[];
-    t.obs.push({habitat:draft.habitat.trim(),depth:draft.depth,height:draft.height,noFish:draft.noFish,species:draft.noFish?[]:draft.species.map(s=>({name:s.name,lengths:s.lengths.map(l=>({len:l.len,count:l.count}))}))});
+    t.obs.push({id:"o"+Date.now()+Math.random().toString(36).slice(2,6),habitat:draft.habitat.trim(),depth:draft.depth,height:draft.height,noFish:draft.noFish,species:draft.noFish?[]:draft.species.map(s=>({name:s.name,lengths:s.lengths.map(l=>({len:l.len,count:l.count}))}))});
     await saveTrip(t);view="trip";render();
   }else if(id==="expCsv"||id==="expJson"){
         let data,filename;
@@ -221,4 +225,7 @@ app.addEventListener("click",async e=>{
 ["gesturestart","gesturechange","gestureend"].forEach(n=>document.addEventListener(n,e=>e.preventDefault()));
 let _lt=0;document.addEventListener("touchend",e=>{const t=Date.now();if(t-_lt<300)e.preventDefault();_lt=t},{passive:false});
 init();
+async function refresh(){if(view==="obs"||!tok())return;const b=JSON.stringify(trips);await pull();if(view!=="obs"&&JSON.stringify(trips)!==b)render()}
+setInterval(refresh,45000);
+document.addEventListener("visibilitychange",()=>{if(!document.hidden)refresh()});
 </script></body></html>
