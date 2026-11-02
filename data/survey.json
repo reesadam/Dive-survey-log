@@ -8,7 +8,26 @@
       "vis": "",
       "wind": "",
       "temp": "",
-      "obs": []
+      "obs": [
+        {
+          "id": "o17936242127006ixy",
+          "habitat": "Gh",
+          "depth": "2.0",
+          "height": "",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "species": [
