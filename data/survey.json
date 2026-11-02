@@ -1,5 +1,16 @@
 {
-  "trips": [],
+  "trips": [
+    {
+      "id": "t1793624202895",
+      "date": "2026-11-02",
+      "site": "Hi",
+      "sea": "Moderate",
+      "vis": "",
+      "wind": "",
+      "temp": "",
+      "obs": []
+    }
+  ],
   "species": [
     "Hottentot",
     "Roman",
