@@ -3648,69 +3648,6 @@
           ]
         },
         {
-          "id": "o1793716046316laj3",
-          "habitat": "Boulder",
-          "depth": "8.0",
-          "height": "1.5",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Hottentot",
-              "lengths": [
-                {
-                  "len": "21",
-                  "count": "3"
-                }
-              ]
-            },
-            {
-              "name": "Big eye",
-              "lengths": [
-                {
-                  "len": "17",
-                  "count": "1"
-                }
-              ]
-            },
-            {
-              "name": "Roman",
-              "lengths": [
-                {
-                  "len": "21",
-                  "count": "2"
-                }
-              ]
-            },
-            {
-              "name": "Steenklip",
-              "lengths": [
-                {
-                  "len": "17",
-                  "count": "3"
-                }
-              ]
-            },
-            {
-              "name": "Butterfish",
-              "lengths": [
-                {
-                  "len": "18",
-                  "count": "2"
-                }
-              ]
-            },
-            {
-              "name": "Milkfish",
-              "lengths": [
-                {
-                  "len": "23",
-                  "count": "1"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "o1793716046771b4n3",
           "habitat": "Boulder",
           "depth": "8.0",
@@ -4985,9 +4922,9 @@
     "Bankie",
     "Red Roman",
     "Dassie",
-    "Galjoen",
-    "Haploblepharus edwardsii (Puffadder shyshark)",
     "Steenbrass",
+    "Haploblepharus edwardsii (Puffadder shyshark)",
+    "Galjoen",
     "Wildeperd",
     "Zebra",
     "Pixi"
@@ -5000,11 +4937,12 @@
     "t1793696201882",
     "t1793624202895",
     "t1793690045979",
-    "t1793696854046",
     "t1793696784149",
+    "t1793696854046",
     "obs:o17936984184417x0b",
     "obs:o179370799006610iq",
     "obs:o1793711058870wsqa",
-    "obs:o1793715778329p9pf"
+    "obs:o1793715778329p9pf",
+    "obs:o1793716046316laj3"
   ]
 }
