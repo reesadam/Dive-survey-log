@@ -91,6 +91,24 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o17937083596645afq",
+          "habitat": "Flat reef, no cave",
+          "depth": "6.0",
+          "height": "0.3",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Galjoen",
+              "lengths": [
+                {
+                  "len": "40",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
