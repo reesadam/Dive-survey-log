@@ -234,6 +234,24 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793712908952hfp5",
+          "habitat": "Drop off onto flat",
+          "depth": "5.0",
+          "height": "3.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "2"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3380,29 +3398,29 @@
     "Big eye",
     "Janbruin",
     "Cracker",
-    "Steenklip",
     "Pyjama shark",
+    "Steenklip",
     "Spotted gully shark",
     "Bankie",
     "Red Roman",
-    "Haploblepharus edwardsii (Puffadder shyshark)",
     "Dassie",
     "Galjoen",
+    "Haploblepharus edwardsii (Puffadder shyshark)",
     "Steenbrass",
     "Wildeperd",
     "Zebra",
     "Pixi"
   ],
   "deleted": [
+    "t1793695823776",
     "t1791485944297",
     "t1791485825877",
-    "t1793695823776",
     "t1793696207591",
     "t1793696201882",
     "t1793624202895",
     "t1793690045979",
-    "t1793696784149",
     "t1793696854046",
+    "t1793696784149",
     "obs:o17936984184417x0b",
     "obs:o179370799006610iq",
     "obs:o1793711058870wsqa"
