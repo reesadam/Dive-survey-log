@@ -2066,41 +2066,6 @@
               ]
             }
           ]
-        },
-        {
-          "id": "o1793711058870wsqa",
-          "habitat": "Laminaria reef, Boulders and sand",
-          "depth": "6.0",
-          "height": "0.5",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Hottentot",
-              "lengths": [
-                {
-                  "len": "31",
-                  "count": "1"
-                },
-                {
-                  "len": "20",
-                  "count": "10"
-                },
-                {
-                  "len": "17",
-                  "count": "5"
-                }
-              ]
-            },
-            {
-              "name": "Haploblepharus edwardsii (Puffadder shyshark)",
-              "lengths": [
-                {
-                  "len": "37",
-                  "count": "1"
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -2594,6 +2559,7 @@
     "t1793696784149",
     "t1793696854046",
     "obs:o17936984184417x0b",
-    "obs:o179370799006610iq"
+    "obs:o179370799006610iq",
+    "obs:o1793711058870wsqa"
   ]
 }
