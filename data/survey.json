@@ -520,6 +520,42 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793706420171gnq4",
+          "habitat": "Kelp",
+          "depth": "4.0",
+          "height": "0.5",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "12",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "8",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Spotted gully shark",
+              "lengths": [
+                {
+                  "len": "100",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     }
@@ -534,15 +570,15 @@
     "Big eye",
     "Janbruin",
     "Cracker",
-    "Steenklip",
     "Pyjama shark",
+    "Steenklip",
     "Spotted gully shark",
     "Bankie"
   ],
   "deleted": [
+    "t1793695823776",
     "t1791485944297",
     "t1791485825877",
-    "t1793695823776",
     "t1793696207591",
     "t1793696201882",
     "t1793624202895",
