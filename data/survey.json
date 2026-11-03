@@ -507,6 +507,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793709575916ewhg",
+          "habitat": "Ledge, small cave",
+          "depth": "4.5",
+          "height": "1.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Big eye",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
