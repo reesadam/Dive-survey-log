@@ -578,6 +578,24 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793709759901e7vi",
+          "habitat": "Ledge on boulders, small cave",
+          "depth": "3.5",
+          "height": "1.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
