@@ -3480,6 +3480,75 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o17937134988332obm",
+          "habitat": "Crevace",
+          "depth": "3.0",
+          "height": "3.0",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "31",
+                  "count": "1"
+                },
+                {
+                  "len": "34",
+                  "count": "1"
+                },
+                {
+                  "len": "24",
+                  "count": "1"
+                },
+                {
+                  "len": "23",
+                  "count": "1"
+                },
+                {
+                  "len": "17",
+                  "count": "1"
+                },
+                {
+                  "len": "15",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Dassie",
+              "lengths": [
+                {
+                  "len": "31",
+                  "count": "1"
+                },
+                {
+                  "len": "27",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "23",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Janbruin",
+              "lengths": [
+                {
+                  "len": "23",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3949,23 +4018,23 @@
     "Big eye",
     "Janbruin",
     "Cracker",
-    "Steenklip",
     "Pyjama shark",
+    "Steenklip",
     "Spotted gully shark",
     "Bankie",
     "Red Roman",
-    "Haploblepharus edwardsii (Puffadder shyshark)",
     "Dassie",
-    "Galjoen",
     "Steenbrass",
+    "Haploblepharus edwardsii (Puffadder shyshark)",
+    "Galjoen",
     "Wildeperd",
     "Zebra",
     "Pixi"
   ],
   "deleted": [
+    "t1793695823776",
     "t1791485944297",
     "t1791485825877",
-    "t1793695823776",
     "t1793696207591",
     "t1793696201882",
     "t1793624202895",
