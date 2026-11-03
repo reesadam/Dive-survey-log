@@ -571,6 +571,69 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o17937078138565r7v",
+          "habitat": "Boulders, medium cave",
+          "depth": "12.5",
+          "height": "2.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "10"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "4"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "4"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "5"
+                }
+              ]
+            },
+            {
+              "name": "Pyjama shark",
+              "lengths": [
+                {
+                  "len": "45",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Haploblepharus edwardsii (Puffadder shyshark)",
+              "lengths": [
+                {
+                  "len": "35",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -686,25 +749,25 @@
     "Big eye",
     "Janbruin",
     "Cracker",
-    "Pyjama shark",
     "Steenklip",
+    "Pyjama shark",
     "Spotted gully shark",
     "Bankie",
     "Red Roman",
+    "Haploblepharus edwardsii (Puffadder shyshark)",
     "Dassie",
-    "Galjoen",
-    "Haploblepharus edwardsii (Puffadder shyshark)"
+    "Galjoen"
   ],
   "deleted": [
-    "t1793695823776",
     "t1791485944297",
     "t1791485825877",
+    "t1793695823776",
     "t1793696207591",
     "t1793696201882",
     "t1793624202895",
     "t1793690045979",
-    "t1793696854046",
     "t1793696784149",
+    "t1793696854046",
     "obs:o17936984184417x0b"
   ]
 }
