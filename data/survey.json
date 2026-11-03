@@ -3397,6 +3397,42 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793715852860kg1y",
+          "habitat": "Boulder",
+          "depth": "4.5",
+          "height": "1.5",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "18",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Janbruin",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
