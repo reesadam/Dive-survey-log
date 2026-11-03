@@ -1709,6 +1709,90 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793712468872pt5r",
+          "habitat": "top of ledge, large cave",
+          "depth": "14.0",
+          "height": "3.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "10"
+                },
+                {
+                  "len": "17",
+                  "count": "10"
+                }
+              ]
+            },
+            {
+              "name": "Big eye",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "10"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Steentjie",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "7"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "4"
+                },
+                {
+                  "len": "31",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Galjoen",
+              "lengths": [
+                {
+                  "len": "35",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Dassie",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "7"
+                },
+                {
+                  "len": "32",
+                  "count": "3"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
