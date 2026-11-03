@@ -407,6 +407,46 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793716346963b5y8",
+          "habitat": "Pinnacle next to sand",
+          "depth": "7.0",
+          "height": "3.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Dassie",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "15"
+                }
+              ]
+            },
+            {
+              "name": "Zebra",
+              "lengths": [
+                {
+                  "len": "28",
+                  "count": "4"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "1"
+                },
+                {
+                  "len": "27",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -4945,9 +4985,9 @@
     "Bankie",
     "Red Roman",
     "Dassie",
-    "Steenbrass",
-    "Haploblepharus edwardsii (Puffadder shyshark)",
     "Galjoen",
+    "Haploblepharus edwardsii (Puffadder shyshark)",
+    "Steenbrass",
     "Wildeperd",
     "Zebra",
     "Pixi"
@@ -4960,8 +5000,8 @@
     "t1793696201882",
     "t1793624202895",
     "t1793690045979",
-    "t1793696784149",
     "t1793696854046",
+    "t1793696784149",
     "obs:o17936984184417x0b",
     "obs:o179370799006610iq",
     "obs:o1793711058870wsqa",
