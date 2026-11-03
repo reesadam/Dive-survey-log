@@ -459,6 +459,57 @@
       ]
     },
     {
+      "id": "t1793706758593",
+      "date": "1995-06-01",
+      "site": "Smits beach reef",
+      "sea": "Calm",
+      "vis": "12",
+      "wind": "NW",
+      "temp": "13",
+      "obs": [
+        {
+          "id": "o1793706856283ssyi",
+          "habitat": "Large boulder, large cave",
+          "depth": "13.0",
+          "height": "3.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "2"
+                },
+                {
+                  "len": "17",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "t1793697155359",
       "date": "1993-03-10",
       "site": "Millers",
@@ -570,16 +621,16 @@
     "Big eye",
     "Janbruin",
     "Cracker",
-    "Pyjama shark",
     "Steenklip",
+    "Pyjama shark",
     "Spotted gully shark",
     "Bankie",
     "Red Roman"
   ],
   "deleted": [
-    "t1793695823776",
     "t1791485944297",
     "t1791485825877",
+    "t1793695823776",
     "t1793696207591",
     "t1793696201882",
     "t1793624202895",
