@@ -3801,6 +3801,46 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793714335918vhxp",
+          "habitat": "Cluttered reef with sand",
+          "depth": "5.5",
+          "height": "1.5",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "1"
+                },
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Milkfish",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Pyjama shark",
+              "lengths": [
+                {
+                  "len": "80",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
