@@ -686,6 +686,76 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o17937100991477xfr",
+          "habitat": "Drop off onto flat, medium cave",
+          "depth": "17.5",
+          "height": "2.3",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "5"
+                },
+                {
+                  "len": "33",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "3"
+                },
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "1"
+                },
+                {
+                  "len": "18",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "1"
+                },
+                {
+                  "len": "25",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Milkfish",
+              "lengths": [
+                {
+                  "len": "14",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
