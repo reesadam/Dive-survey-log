@@ -109,6 +109,24 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793708450164bn40",
+          "habitat": "Ledge, small cave",
+          "depth": "5.0",
+          "height": "1.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "3"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1093,20 +1111,20 @@
     "Big eye",
     "Janbruin",
     "Cracker",
-    "Pyjama shark",
     "Steenklip",
+    "Pyjama shark",
     "Spotted gully shark",
     "Bankie",
     "Red Roman",
-    "Dassie",
-    "Steenbrass",
     "Haploblepharus edwardsii (Puffadder shyshark)",
-    "Galjoen"
+    "Dassie",
+    "Galjoen",
+    "Steenbrass"
   ],
   "deleted": [
-    "t1793695823776",
     "t1791485944297",
     "t1791485825877",
+    "t1793695823776",
     "t1793696207591",
     "t1793696201882",
     "t1793624202895",
