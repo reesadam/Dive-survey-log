@@ -250,6 +250,24 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793708950334wfxc",
+          "habitat": "Reef flat, no cave",
+          "depth": "6.0",
+          "height": "0.2",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Haploblepharus edwardsii (Puffadder shyshark)",
+              "lengths": [
+                {
+                  "len": "40",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
