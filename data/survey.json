@@ -127,6 +127,14 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793708480844hq0g",
+          "habitat": "Flat reef, no cave",
+          "depth": "4.0",
+          "height": "0.2",
+          "noFish": true,
+          "species": []
         }
       ]
     },
