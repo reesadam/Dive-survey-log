@@ -384,6 +384,77 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793700935184r2eg",
+          "habitat": "Ledge reef, Medium cave",
+          "depth": "11.0",
+          "height": "1.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "8"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "2"
+                },
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Big eye",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "5"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Janbruin",
+              "lengths": [
+                {
+                  "len": "28",
+                  "count": "1"
+                },
+                {
+                  "len": "27",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
