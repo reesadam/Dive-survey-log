@@ -3671,6 +3671,53 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793713775439sg6n",
+          "habitat": "Flat rocks and Laminaria",
+          "depth": "4.0",
+          "height": "1.0",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "1"
+                },
+                {
+                  "len": "23",
+                  "count": "1"
+                },
+                {
+                  "len": "27",
+                  "count": "1"
+                },
+                {
+                  "len": "22",
+                  "count": "1"
+                },
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Big eye",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "1"
+                },
+                {
+                  "len": "19",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
