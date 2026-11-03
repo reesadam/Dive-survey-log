@@ -299,6 +299,24 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o17937090497083jq6",
+          "habitat": "Flat reef, no cave",
+          "depth": "6.0",
+          "height": "0.3",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
