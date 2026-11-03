@@ -614,6 +614,24 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793709844651bt0s",
+          "habitat": "Ledge on flat, no cave",
+          "depth": "5.5",
+          "height": "0.8",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
