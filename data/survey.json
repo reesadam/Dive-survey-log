@@ -1,39 +1,6 @@
 {
   "trips": [
     {
-      "id": "t1793696784149",
-      "date": "2026-11-03",
-      "site": "Millers",
-      "sea": "Calm",
-      "vis": "5",
-      "wind": "W",
-      "temp": "15",
-      "obs": [
-        {
-          "id": "o1793696838320r81o",
-          "habitat": "Kelp",
-          "depth": "4.5",
-          "height": "2.0",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Hottentot",
-              "lengths": [
-                {
-                  "len": "20",
-                  "count": "3"
-                },
-                {
-                  "len": "7",
-                  "count": "1"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "t1793696854046",
       "date": "1995-10-06",
       "site": "Corovons left by the wreck",
@@ -58,6 +25,7 @@
     "t1793696207591",
     "t1793696201882",
     "t1793624202895",
-    "t1793690045979"
+    "t1793690045979",
+    "t1793696784149"
   ]
 }
