@@ -8,7 +8,26 @@
       "vis": "15",
       "wind": "SE",
       "temp": "15",
-      "obs": []
+      "obs": [
+        {
+          "id": "o17937077702241i7k",
+          "habitat": "Flat reef",
+          "depth": "4.0",
+          "height": "0.3",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Galjoen",
+              "lengths": [
+                {
+                  "len": "40",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "t1793698211780",
