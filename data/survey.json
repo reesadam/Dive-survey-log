@@ -26,6 +26,42 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793707821182n4on",
+          "habitat": "Sandy boulders",
+          "depth": "4.0",
+          "height": "0.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Galjoen",
+              "lengths": [
+                {
+                  "len": "40",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "o1793708242802zioz",
+          "habitat": "Boulders",
+          "depth": "4.0",
+          "height": "0.8",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "2"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -915,25 +951,25 @@
     "Big eye",
     "Janbruin",
     "Cracker",
-    "Steenklip",
     "Pyjama shark",
+    "Steenklip",
     "Spotted gully shark",
     "Bankie",
     "Red Roman",
-    "Haploblepharus edwardsii (Puffadder shyshark)",
     "Dassie",
-    "Galjoen"
+    "Galjoen",
+    "Haploblepharus edwardsii (Puffadder shyshark)"
   ],
   "deleted": [
+    "t1793695823776",
     "t1791485944297",
     "t1791485825877",
-    "t1793695823776",
     "t1793696207591",
     "t1793696201882",
     "t1793624202895",
     "t1793690045979",
-    "t1793696784149",
     "t1793696854046",
+    "t1793696784149",
     "obs:o17936984184417x0b",
     "obs:o179370799006610iq"
   ]
