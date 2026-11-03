@@ -1,6 +1,16 @@
 {
   "trips": [
     {
+      "id": "t1793714480152",
+      "date": "1993-06-16",
+      "site": "Millers",
+      "sea": "Calm",
+      "vis": "",
+      "wind": "SE",
+      "temp": "15",
+      "obs": []
+    },
+    {
       "id": "t1793707553070",
       "date": "1995-08-12",
       "site": "Millers",
