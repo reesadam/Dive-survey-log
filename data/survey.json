@@ -938,6 +938,68 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793710659143g8y2",
+          "habitat": "Small boulder, small cave",
+          "depth": "22.0",
+          "height": "0.5",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "6"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "4"
+                },
+                {
+                  "len": "17",
+                  "count": "3"
+                },
+                {
+                  "len": "31",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Milkfish",
+              "lengths": [
+                {
+                  "len": "",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Dassie",
+              "lengths": [
+                {
+                  "len": "",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
