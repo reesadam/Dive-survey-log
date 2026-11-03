@@ -478,55 +478,6 @@
               ]
             }
           ]
-        },
-        {
-          "id": "o1793716720510hk18",
-          "habitat": "Boulders",
-          "depth": "7.0",
-          "height": "1.7",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Zebra",
-              "lengths": [
-                {
-                  "len": "27",
-                  "count": "1"
-                },
-                {
-                  "len": "22",
-                  "count": "1"
-                }
-              ]
-            },
-            {
-              "name": "Roman",
-              "lengths": [
-                {
-                  "len": "35",
-                  "count": "1"
-                }
-              ]
-            },
-            {
-              "name": "Janbruin",
-              "lengths": [
-                {
-                  "len": "27",
-                  "count": "1"
-                }
-              ]
-            },
-            {
-              "name": "Butterfish",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "1"
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -5045,6 +4996,7 @@
     "obs:o1793711058870wsqa",
     "obs:o1793715778329p9pf",
     "obs:o1793716046316laj3",
-    "obs:o1793716046771b4n3"
+    "obs:o1793716046771b4n3",
+    "obs:o1793716720510hk18"
   ]
 }
