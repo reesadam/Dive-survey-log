@@ -3397,6 +3397,37 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793715778329p9pf",
+          "habitat": "Boulder",
+          "depth": "5.0",
+          "height": "3.5",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "19",
+                  "count": "1"
+                },
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
