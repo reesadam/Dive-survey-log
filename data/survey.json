@@ -348,6 +348,42 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793700669176fkkd",
+          "habitat": "Ledge reef, small cave",
+          "depth": "10.0",
+          "height": "1.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "5"
+                }
+              ]
+            },
+            {
+              "name": "Big eye",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "7"
+                }
+              ]
+            },
+            {
+              "name": "Steentjie",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "5"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
