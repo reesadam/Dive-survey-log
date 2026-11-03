@@ -1123,6 +1123,64 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o17937087183856bo8",
+          "habitat": "Crevace",
+          "depth": "4.0",
+          "height": "3.0",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "13",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "12",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "32",
+                  "count": "1"
+                },
+                {
+                  "len": "12",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenbrass",
+              "lengths": [
+                {
+                  "len": "28",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Janbruin",
+              "lengths": [
+                {
+                  "len": "28",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     }
@@ -1143,9 +1201,9 @@
     "Bankie",
     "Red Roman",
     "Dassie",
-    "Galjoen",
+    "Steenbrass",
     "Haploblepharus edwardsii (Puffadder shyshark)",
-    "Steenbrass"
+    "Galjoen"
   ],
   "deleted": [
     "t1793695823776",
@@ -1155,8 +1213,8 @@
     "t1793696201882",
     "t1793624202895",
     "t1793690045979",
-    "t1793696854046",
     "t1793696784149",
+    "t1793696854046",
     "obs:o17936984184417x0b",
     "obs:o179370799006610iq"
   ]
