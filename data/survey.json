@@ -123,6 +123,14 @@
           "height": "0.4",
           "noFish": true,
           "species": []
+        },
+        {
+          "id": "o1793709193684ho1c",
+          "habitat": "Flat reef",
+          "depth": "4.0",
+          "height": "0.4",
+          "noFish": true,
+          "species": []
         }
       ]
     },
