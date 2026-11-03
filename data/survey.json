@@ -634,6 +634,42 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793707897378esmq",
+          "habitat": "Flat top reef, large cave",
+          "depth": "9.0",
+          "height": "0.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "3"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
