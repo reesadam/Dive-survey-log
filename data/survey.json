@@ -2236,6 +2236,46 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793713301588dvka",
+          "habitat": "Low reef on sand, no cave",
+          "depth": "18.0",
+          "height": "1.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Big eye",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "1"
+                },
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3802,23 +3842,23 @@
     "Big eye",
     "Janbruin",
     "Cracker",
-    "Pyjama shark",
     "Steenklip",
+    "Pyjama shark",
     "Spotted gully shark",
     "Bankie",
     "Red Roman",
-    "Dassie",
-    "Steenbrass",
     "Haploblepharus edwardsii (Puffadder shyshark)",
+    "Dassie",
     "Galjoen",
+    "Steenbrass",
     "Wildeperd",
     "Zebra",
     "Pixi"
   ],
   "deleted": [
-    "t1793695823776",
     "t1791485944297",
     "t1791485825877",
+    "t1793695823776",
     "t1793696207591",
     "t1793696201882",
     "t1793624202895",
