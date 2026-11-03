@@ -3648,69 +3648,6 @@
           ]
         },
         {
-          "id": "o1793716046771b4n3",
-          "habitat": "Boulder",
-          "depth": "8.0",
-          "height": "1.5",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Hottentot",
-              "lengths": [
-                {
-                  "len": "21",
-                  "count": "3"
-                }
-              ]
-            },
-            {
-              "name": "Big eye",
-              "lengths": [
-                {
-                  "len": "17",
-                  "count": "1"
-                }
-              ]
-            },
-            {
-              "name": "Roman",
-              "lengths": [
-                {
-                  "len": "21",
-                  "count": "2"
-                }
-              ]
-            },
-            {
-              "name": "Steenklip",
-              "lengths": [
-                {
-                  "len": "17",
-                  "count": "3"
-                }
-              ]
-            },
-            {
-              "name": "Butterfish",
-              "lengths": [
-                {
-                  "len": "18",
-                  "count": "2"
-                }
-              ]
-            },
-            {
-              "name": "Milkfish",
-              "lengths": [
-                {
-                  "len": "23",
-                  "count": "1"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "o179371627216033oi",
           "habitat": "Boulder",
           "depth": "4.0",
@@ -4943,6 +4880,7 @@
     "obs:o179370799006610iq",
     "obs:o1793711058870wsqa",
     "obs:o1793715778329p9pf",
-    "obs:o1793716046316laj3"
+    "obs:o1793716046316laj3",
+    "obs:o1793716046771b4n3"
   ]
 }
