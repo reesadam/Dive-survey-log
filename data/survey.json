@@ -2031,6 +2031,41 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793711055982oy6a",
+          "habitat": "Laminaria reef, Boulders and sand",
+          "depth": "6.0",
+          "height": "0.5",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "31",
+                  "count": "1"
+                },
+                {
+                  "len": "20",
+                  "count": "10"
+                },
+                {
+                  "len": "17",
+                  "count": "5"
+                }
+              ]
+            },
+            {
+              "name": "Haploblepharus edwardsii (Puffadder shyshark)",
+              "lengths": [
+                {
+                  "len": "37",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2500,23 +2535,23 @@
     "Big eye",
     "Janbruin",
     "Cracker",
-    "Steenklip",
     "Pyjama shark",
+    "Steenklip",
     "Spotted gully shark",
     "Bankie",
     "Red Roman",
-    "Haploblepharus edwardsii (Puffadder shyshark)",
     "Dassie",
-    "Galjoen",
     "Steenbrass",
+    "Haploblepharus edwardsii (Puffadder shyshark)",
+    "Galjoen",
     "Wildeperd",
     "Zebra",
     "Pixi"
   ],
   "deleted": [
+    "t1793695823776",
     "t1791485944297",
     "t1791485825877",
-    "t1793695823776",
     "t1793696207591",
     "t1793696201882",
     "t1793624202895",
