@@ -1608,6 +1608,107 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793712308927fpnn",
+          "habitat": "Ledge, large cave",
+          "depth": "14.0",
+          "height": "4.3",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "15"
+                },
+                {
+                  "len": "17",
+                  "count": "20"
+                },
+                {
+                  "len": "33",
+                  "count": "10"
+                }
+              ]
+            },
+            {
+              "name": "Big eye",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "10"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "3"
+                },
+                {
+                  "len": "40",
+                  "count": "1"
+                },
+                {
+                  "len": "17",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "8"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "7"
+                },
+                {
+                  "len": "33",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Janbruin",
+              "lengths": [
+                {
+                  "len": "33",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Streepie",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "10"
+                }
+              ]
+            },
+            {
+              "name": "Dassie",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "4"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
