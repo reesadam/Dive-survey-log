@@ -1,16 +1,6 @@
 {
   "trips": [
     {
-      "id": "t1793697155359",
-      "date": "1993-03-10",
-      "site": "Millers",
-      "sea": "Rough",
-      "vis": "",
-      "wind": "SE",
-      "temp": "16",
-      "obs": []
-    },
-    {
       "id": "t1793696854046",
       "date": "1995-10-06",
       "site": "Corovons left by the wreck",
@@ -19,6 +9,16 @@
       "wind": "NW",
       "temp": "14",
       "obs": []
+    },
+    {
+      "id": "t1793697155359",
+      "date": "1993-03-10",
+      "site": "Millers",
+      "sea": "Rough",
+      "vis": "",
+      "wind": "SE",
+      "temp": "16",
+      "obs": []
     }
   ],
   "species": [
@@ -26,7 +26,8 @@
     "Roman",
     "Steentjie",
     "Butterfish",
-    "Milkfish"
+    "Milkfish",
+    "Streepie"
   ],
   "deleted": [
     "t1793695823776",
