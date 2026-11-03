@@ -131,6 +131,60 @@
           "height": "0.4",
           "noFish": true,
           "species": []
+        },
+        {
+          "id": "o179371081890127p2",
+          "habitat": "Drop onto flat",
+          "depth": "5.0",
+          "height": "3.2",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Big eye",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Pyjama shark",
+              "lengths": [
+                {
+                  "len": "60",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Galjoen",
+              "lengths": [
+                {
+                  "len": "45",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2253,28 +2307,28 @@
     "Big eye",
     "Janbruin",
     "Cracker",
-    "Steenklip",
     "Pyjama shark",
+    "Steenklip",
     "Spotted gully shark",
     "Bankie",
     "Red Roman",
-    "Haploblepharus edwardsii (Puffadder shyshark)",
     "Dassie",
     "Galjoen",
+    "Haploblepharus edwardsii (Puffadder shyshark)",
     "Steenbrass",
     "Wildeperd",
     "Zebra"
   ],
   "deleted": [
+    "t1793695823776",
     "t1791485944297",
     "t1791485825877",
-    "t1793695823776",
     "t1793696207591",
     "t1793696201882",
     "t1793624202895",
     "t1793690045979",
-    "t1793696784149",
     "t1793696854046",
+    "t1793696784149",
     "obs:o17936984184417x0b",
     "obs:o179370799006610iq"
   ]
