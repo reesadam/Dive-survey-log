@@ -1,74 +1,5 @@
 {
-  "trips": [
-    {
-      "id": "t1793690045979",
-      "date": "1993-06-13",
-      "site": "millers point",
-      "sea": "Calm",
-      "vis": "",
-      "wind": "SE",
-      "temp": "15",
-      "obs": [
-        {
-          "id": "o1793690295085yb6v",
-          "habitat": "Cobbles, small caves kelp",
-          "depth": "6.0",
-          "height": "3.1",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Hottentot",
-              "lengths": [
-                {
-                  "len": "17",
-                  "count": "1"
-                }
-              ]
-            },
-            {
-              "name": "Butterfish",
-              "lengths": [
-                {
-                  "len": "12",
-                  "count": "1"
-                },
-                {
-                  "len": "28",
-                  "count": "1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "o1793690358843iotd",
-          "habitat": "kelp",
-          "depth": "",
-          "height": "",
-          "noFish": true,
-          "species": []
-        },
-        {
-          "id": "o1793690386442uq74",
-          "habitat": "",
-          "depth": "",
-          "height": "",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Hottentot",
-              "lengths": [
-                {
-                  "len": "",
-                  "count": "1"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ],
+  "trips": [],
   "species": [
     "Hottentot",
     "Roman",
@@ -82,6 +13,7 @@
     "t1791485825877",
     "t1793696207591",
     "t1793696201882",
-    "t1793624202895"
+    "t1793624202895",
+    "t1793690045979"
   ]
 }
