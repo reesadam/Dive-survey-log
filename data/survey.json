@@ -8,7 +8,30 @@
       "vis": "5",
       "wind": "W",
       "temp": "15",
-      "obs": []
+      "obs": [
+        {
+          "id": "o1793696838320r81o",
+          "habitat": "Kelp",
+          "depth": "4.5",
+          "height": "2.0",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "20",
+                  "count": "3"
+                },
+                {
+                  "len": "7",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "species": [
