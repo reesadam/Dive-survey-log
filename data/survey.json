@@ -80,6 +80,14 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793708789403wjnn",
+          "habitat": "Flat reef",
+          "depth": "4.0",
+          "height": "0.5",
+          "noFish": true,
+          "species": []
         }
       ]
     },
@@ -1226,26 +1234,26 @@
     "Big eye",
     "Janbruin",
     "Cracker",
-    "Steenklip",
     "Pyjama shark",
+    "Steenklip",
     "Spotted gully shark",
     "Bankie",
     "Red Roman",
-    "Haploblepharus edwardsii (Puffadder shyshark)",
     "Dassie",
     "Galjoen",
+    "Haploblepharus edwardsii (Puffadder shyshark)",
     "Steenbrass"
   ],
   "deleted": [
+    "t1793695823776",
     "t1791485944297",
     "t1791485825877",
-    "t1793695823776",
     "t1793696207591",
     "t1793696201882",
     "t1793624202895",
     "t1793690045979",
-    "t1793696784149",
     "t1793696854046",
+    "t1793696784149",
     "obs:o17936984184417x0b",
     "obs:o179370799006610iq"
   ]
