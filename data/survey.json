@@ -18,7 +18,62 @@
       "vis": "",
       "wind": "SE",
       "temp": "16",
-      "obs": []
+      "obs": [
+        {
+          "id": "o17936984184417x0b",
+          "habitat": "Kelp",
+          "depth": "2.5",
+          "height": "1.5",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Streepie",
+              "lengths": [
+                {
+                  "len": "15",
+                  "count": "60"
+                }
+              ]
+            },
+            {
+              "name": "Big eye",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Janbruin",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Cracker",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Pyjama shark",
+              "lengths": [
+                {
+                  "len": "80",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "species": [
