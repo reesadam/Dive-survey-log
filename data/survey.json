@@ -3770,6 +3770,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o179371664680814hc",
+          "habitat": "Sandy reef",
+          "depth": "7.0",
+          "height": "4.5",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "28",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "31",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
