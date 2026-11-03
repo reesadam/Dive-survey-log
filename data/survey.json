@@ -670,6 +670,46 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o17937080930249bar",
+          "habitat": "Boulder on flat, large cave",
+          "depth": "13.0",
+          "height": "3.3",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "31",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "31",
+                  "count": "1"
+                },
+                {
+                  "len": "22",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "2"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
