@@ -440,6 +440,37 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793709307306bvmk",
+          "habitat": "Boulders, large cave",
+          "depth": "3.5",
+          "height": "0.8",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "1"
+                },
+                {
+                  "len": "22",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
