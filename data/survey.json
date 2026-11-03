@@ -3837,6 +3837,157 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793716743906oepr",
+          "habitat": "Flat reef",
+          "depth": "6.0",
+          "height": "0.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Haploblepharus edwardsii (Puffadder shyshark)",
+              "lengths": [
+                {
+                  "len": "31",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "12",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "o1793716873257i3e7",
+          "habitat": "Cobble",
+          "depth": "7.0",
+          "height": "0.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "4"
+                },
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "2"
+                },
+                {
+                  "len": "17",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Janbruin",
+              "lengths": [
+                {
+                  "len": "28",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Milkfish",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "o1793716875434xg0y",
+          "habitat": "Cobble",
+          "depth": "7.0",
+          "height": "0.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "4"
+                },
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "2"
+                },
+                {
+                  "len": "17",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Janbruin",
+              "lengths": [
+                {
+                  "len": "28",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Milkfish",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -5014,9 +5165,9 @@
     "Bankie",
     "Red Roman",
     "Dassie",
-    "Galjoen",
-    "Haploblepharus edwardsii (Puffadder shyshark)",
     "Steenbrass",
+    "Haploblepharus edwardsii (Puffadder shyshark)",
+    "Galjoen",
     "Wildeperd",
     "Zebra",
     "Pixi"
@@ -5029,8 +5180,8 @@
     "t1793696201882",
     "t1793624202895",
     "t1793690045979",
-    "t1793696854046",
     "t1793696784149",
+    "t1793696854046",
     "obs:o17936984184417x0b",
     "obs:o179370799006610iq",
     "obs:o1793711058870wsqa",
