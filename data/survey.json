@@ -1970,6 +1970,107 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793712936546x31k",
+          "habitat": "Large boulder on flat, large cave",
+          "depth": "16.0",
+          "height": "3.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "15"
+                },
+                {
+                  "len": "35",
+                  "count": "5"
+                },
+                {
+                  "len": "17",
+                  "count": "15"
+                }
+              ]
+            },
+            {
+              "name": "Big eye",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "15"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "4"
+                },
+                {
+                  "len": "33",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "8"
+                },
+                {
+                  "len": "31",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "4"
+                },
+                {
+                  "len": "32",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Janbruin",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "5"
+                }
+              ]
+            },
+            {
+              "name": "Pixi",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Bankie",
+              "lengths": [
+                {
+                  "len": "32",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3398,29 +3499,29 @@
     "Big eye",
     "Janbruin",
     "Cracker",
-    "Pyjama shark",
     "Steenklip",
+    "Pyjama shark",
     "Spotted gully shark",
     "Bankie",
     "Red Roman",
+    "Haploblepharus edwardsii (Puffadder shyshark)",
     "Dassie",
     "Galjoen",
-    "Haploblepharus edwardsii (Puffadder shyshark)",
     "Steenbrass",
     "Wildeperd",
     "Zebra",
     "Pixi"
   ],
   "deleted": [
-    "t1793695823776",
     "t1791485944297",
     "t1791485825877",
+    "t1793695823776",
     "t1793696207591",
     "t1793696201882",
     "t1793624202895",
     "t1793690045979",
-    "t1793696854046",
     "t1793696784149",
+    "t1793696854046",
     "obs:o17936984184417x0b",
     "obs:o179370799006610iq",
     "obs:o1793711058870wsqa"
