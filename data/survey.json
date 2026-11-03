@@ -3732,6 +3732,42 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o179371627216033oi",
+          "habitat": "Boulder",
+          "depth": "4.0",
+          "height": "1.5",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "18",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "12",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Dassie",
+              "lengths": [
+                {
+                  "len": "31",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
