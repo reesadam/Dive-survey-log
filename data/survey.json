@@ -1296,6 +1296,62 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793708957041ejgr",
+          "habitat": "Kelp",
+          "depth": "5.0",
+          "height": "0.2",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "12",
+                  "count": "1"
+                },
+                {
+                  "len": "14",
+                  "count": "1"
+                },
+                {
+                  "len": "21",
+                  "count": "1"
+                },
+                {
+                  "len": "8",
+                  "count": "1"
+                },
+                {
+                  "len": "25",
+                  "count": "1"
+                },
+                {
+                  "len": "27",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steentjie",
+              "lengths": [
+                {
+                  "len": "10",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Big eye",
+              "lengths": [
+                {
+                  "len": "15",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     }
@@ -1310,20 +1366,20 @@
     "Big eye",
     "Janbruin",
     "Cracker",
-    "Steenklip",
     "Pyjama shark",
+    "Steenklip",
     "Spotted gully shark",
     "Bankie",
     "Red Roman",
-    "Haploblepharus edwardsii (Puffadder shyshark)",
     "Dassie",
-    "Galjoen",
-    "Steenbrass"
+    "Steenbrass",
+    "Haploblepharus edwardsii (Puffadder shyshark)",
+    "Galjoen"
   ],
   "deleted": [
+    "t1793695823776",
     "t1791485944297",
     "t1791485825877",
-    "t1793695823776",
     "t1793696207591",
     "t1793696201882",
     "t1793624202895",
