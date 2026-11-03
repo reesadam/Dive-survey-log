@@ -3290,6 +3290,49 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o17937132885971rqw",
+          "habitat": "Sandy gully and Kelp",
+          "depth": "4.5",
+          "height": "4.0",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "24",
+                  "count": "1"
+                },
+                {
+                  "len": "27",
+                  "count": "1"
+                },
+                {
+                  "len": "26",
+                  "count": "1"
+                },
+                {
+                  "len": "29",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Wildeperd",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "1"
+                },
+                {
+                  "len": "27",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3759,23 +3802,23 @@
     "Big eye",
     "Janbruin",
     "Cracker",
-    "Steenklip",
     "Pyjama shark",
+    "Steenklip",
     "Spotted gully shark",
     "Bankie",
     "Red Roman",
-    "Haploblepharus edwardsii (Puffadder shyshark)",
     "Dassie",
-    "Galjoen",
     "Steenbrass",
+    "Haploblepharus edwardsii (Puffadder shyshark)",
+    "Galjoen",
     "Wildeperd",
     "Zebra",
     "Pixi"
   ],
   "deleted": [
+    "t1793695823776",
     "t1791485944297",
     "t1791485825877",
-    "t1793695823776",
     "t1793696207591",
     "t1793696201882",
     "t1793624202895",
