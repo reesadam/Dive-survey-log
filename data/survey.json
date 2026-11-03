@@ -1,16 +1,6 @@
 {
   "trips": [
     {
-      "id": "t1793714480152",
-      "date": "1993-06-16",
-      "site": "Millers",
-      "sea": "Calm",
-      "vis": "",
-      "wind": "SE",
-      "temp": "15",
-      "obs": []
-    },
-    {
       "id": "t1793707553070",
       "date": "1995-08-12",
       "site": "Millers",
@@ -3145,6 +3135,65 @@
                 {
                   "len": "27",
                   "count": "6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t1793714480152",
+      "date": "1993-06-16",
+      "site": "Millers",
+      "sea": "Calm",
+      "vis": "",
+      "wind": "SE",
+      "temp": "15",
+      "obs": [
+        {
+          "id": "o1793715396461ry0x",
+          "habitat": "Cobbles, Kelp",
+          "depth": "6.0",
+          "height": "3.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "13",
+                  "count": "1"
+                },
+                {
+                  "len": "14",
+                  "count": "1"
+                },
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "12",
+                  "count": "1"
+                },
+                {
+                  "len": "28",
+                  "count": "1"
                 }
               ]
             }
