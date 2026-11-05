@@ -459,6 +459,24 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o17938881881492fgk",
+          "habitat": "Boulder on sand",
+          "depth": "12.0",
+          "height": "1.3",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
