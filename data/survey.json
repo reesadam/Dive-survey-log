@@ -522,6 +522,59 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o17938893240649obn",
+          "habitat": "Pinnacle onto boulder onto flat - large cave",
+          "depth": "10.0",
+          "height": "5.0",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "35",
+                  "count": "6"
+                },
+                {
+                  "len": "25",
+                  "count": "10"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "35",
+                  "count": "1"
+                },
+                {
+                  "len": "22",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steentjie",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "15",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
