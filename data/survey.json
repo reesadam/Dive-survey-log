@@ -575,6 +575,93 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793889671120yzlv",
+          "habitat": "Pinnacle onto flat reef large cove",
+          "depth": "10.0",
+          "height": "4.0",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "35",
+                  "count": "3"
+                },
+                {
+                  "len": "37",
+                  "count": "3"
+                },
+                {
+                  "len": "25",
+                  "count": "20"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "1"
+                },
+                {
+                  "len": "27",
+                  "count": "2"
+                },
+                {
+                  "len": "39",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steentjie",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "20"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "24",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "31",
+                  "count": "2"
+                },
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Zebra",
+              "lengths": [
+                {
+                  "len": "32",
+                  "count": "3"
+                },
+                {
+                  "len": "28",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
