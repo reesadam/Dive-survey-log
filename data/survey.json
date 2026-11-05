@@ -361,6 +361,55 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o17938879233224hyu",
+          "habitat": "Boulder reef - med cove",
+          "depth": "14.0",
+          "height": "1.2",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Steentjie",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "5"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "4"
+                },
+                {
+                  "len": "22",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
