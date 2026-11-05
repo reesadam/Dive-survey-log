@@ -285,6 +285,42 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793887048825709l",
+          "habitat": "Boulders - large cove",
+          "depth": "13.0",
+          "height": "2.3",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "8"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "2"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
