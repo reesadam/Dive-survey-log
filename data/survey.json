@@ -8,7 +8,26 @@
       "vis": "14",
       "wind": "",
       "temp": "14",
-      "obs": []
+      "obs": [
+        {
+          "id": "o1793860384160focs",
+          "habitat": "Flat reef, small cave",
+          "depth": "10.0",
+          "height": "0.3",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Haploblepharus edwardsii (Puffadder shyshark)",
+              "lengths": [
+                {
+                  "len": "40",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "t1793707553070",
