@@ -698,6 +698,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793872726869629y",
+          "habitat": "Drop onto boulder",
+          "depth": "4.5",
+          "height": "4.5",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
