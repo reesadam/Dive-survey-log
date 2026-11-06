@@ -948,6 +948,86 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793975731062vjbz",
+          "habitat": "Flat reef - large cove",
+          "depth": "8.0",
+          "height": "0.3",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "35",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "33",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Galjoen",
+              "lengths": [
+                {
+                  "len": "37",
+                  "count": "4"
+                },
+                {
+                  "len": "28",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Dassie",
+              "lengths": [
+                {
+                  "len": "32",
+                  "count": "2"
+                },
+                {
+                  "len": "28",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Zebra",
+              "lengths": [
+                {
+                  "len": "30",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
