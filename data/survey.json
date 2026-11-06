@@ -662,6 +662,77 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o17939586448032oz5",
+          "habitat": "Pinnacle onto cobbley reef - med cove",
+          "depth": "11.0",
+          "height": "5.0",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "10"
+                },
+                {
+                  "len": "31",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "29",
+                  "count": "2"
+                },
+                {
+                  "len": "34",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "33",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Milkfish",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Parrotfish",
+              "lengths": [
+                {
+                  "len": "35",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
