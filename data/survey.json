@@ -796,6 +796,60 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1793961961392zips",
+          "habitat": "Reef with large crecks",
+          "depth": "8.0",
+          "height": "2.0",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "31",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "24",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Galjoen",
+              "lengths": [
+                {
+                  "len": "33",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Dassie",
+              "lengths": [
+                {
+                  "len": "35",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
