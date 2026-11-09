@@ -1251,6 +1251,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794214934211ire1",
+          "habitat": "Drop off, no cave",
+          "depth": "5.0",
+          "height": "1.2",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "7"
+                }
+              ]
+            },
+            {
+              "name": "Dassie",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
