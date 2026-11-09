@@ -333,6 +333,46 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794228157436kmye",
+          "habitat": "Flat reef - small cove",
+          "depth": "17.0",
+          "height": "0.8",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "4"
+                },
+                {
+                  "len": "27",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "10"
+                }
+              ]
+            },
+            {
+              "name": "Steentjie",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "10"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
