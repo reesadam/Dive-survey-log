@@ -2132,6 +2132,24 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o17942166156515kzo",
+          "habitat": "Sandy pully, small cave",
+          "depth": "6.0",
+          "height": "1.2",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "4"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
