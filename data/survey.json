@@ -2358,6 +2358,24 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794217887963ex40",
+          "habitat": "Ledge reef, medium cave",
+          "depth": "2.0",
+          "height": "1.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
