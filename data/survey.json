@@ -773,6 +773,42 @@
           "height": "0.5",
           "noFish": true,
           "species": []
+        },
+        {
+          "id": "o17942114985365p8o",
+          "habitat": "Boulder on flat, medium cave",
+          "depth": "6.0",
+          "height": "2.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "4"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Galjoen",
+              "lengths": [
+                {
+                  "len": "40",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
