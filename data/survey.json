@@ -2569,6 +2569,24 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794218285147fzb0",
+          "habitat": "Pinnacle on flat, no cave",
+          "depth": "4.0",
+          "height": "1.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Dassie",
+              "lengths": [
+                {
+                  "len": "31",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
