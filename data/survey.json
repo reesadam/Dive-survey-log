@@ -2078,6 +2078,24 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o17942164980158h3f",
+          "habitat": "Boulders, small cave",
+          "depth": "7.0",
+          "height": "0.8",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
