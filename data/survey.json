@@ -2060,6 +2060,24 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794216452519whnf",
+          "habitat": "Sandy flat, so cave",
+          "depth": "7.0",
+          "height": "0.8",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Haploblepharus edwardsii (Puffadder shyshark)",
+              "lengths": [
+                {
+                  "len": "45",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
