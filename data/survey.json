@@ -252,6 +252,55 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794235840050qu63",
+          "habitat": "Low rock - small cove",
+          "depth": "19.0",
+          "height": "3.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "1"
+                },
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steentjie",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "5"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
