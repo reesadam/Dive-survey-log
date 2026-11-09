@@ -1595,6 +1595,64 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794215567174y17z",
+          "habitat": "Ledge reef, large cave",
+          "depth": "8.5",
+          "height": "1.2",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "4"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "28",
+                  "count": "3"
+                },
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steentjie",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "5"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "2"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
