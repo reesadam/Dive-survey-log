@@ -2300,7 +2300,26 @@
       "vis": "7",
       "wind": "SW",
       "temp": "13",
-      "obs": []
+      "obs": [
+        {
+          "id": "o1794217717457b04l",
+          "habitat": "Boulder on flat, small cave",
+          "depth": "2.0",
+          "height": "2.0",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "t1794217679422",
