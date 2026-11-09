@@ -615,6 +615,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o17942136099116paw",
+          "habitat": "Flat reef ledge, medium cave",
+          "depth": "11.0",
+          "height": "2.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "4"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
