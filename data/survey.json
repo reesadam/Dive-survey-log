@@ -1975,6 +1975,24 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o179421617690056em",
+          "habitat": "ledge onto flat, small cave",
+          "depth": "4.5",
+          "height": "1.5",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Dassie",
+              "lengths": [
+                {
+                  "len": "28",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
