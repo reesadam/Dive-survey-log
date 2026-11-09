@@ -2262,6 +2262,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794216823463cwth",
+          "habitat": "Ledge onto sandy reef, no cave",
+          "depth": "9.0",
+          "height": "1.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Steentjie",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "7"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
