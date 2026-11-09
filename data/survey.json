@@ -991,6 +991,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o17942144078260c9s",
+          "habitat": "Ledge, large cave",
+          "depth": "6.0",
+          "height": "2.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "5"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
