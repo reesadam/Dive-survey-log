@@ -2235,6 +2235,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794216774407529v",
+          "habitat": "Boulders onto sand, small cave",
+          "depth": "7.0",
+          "height": "1.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "5"
+                }
+              ]
+            },
+            {
+              "name": "Steentjie",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "8"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
