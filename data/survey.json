@@ -2542,6 +2542,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o179421825161724fn",
+          "habitat": "Boulder on plat, small cave",
+          "depth": "5.0",
+          "height": "1.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Haploblepharus edwardsii (Puffadder shyshark)",
+              "lengths": [
+                {
+                  "len": "37",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
