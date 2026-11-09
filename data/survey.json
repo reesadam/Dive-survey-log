@@ -1511,6 +1511,50 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794215422985ycmh",
+          "habitat": "Rocky pully, large cave",
+          "depth": "8.0",
+          "height": "2.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "1"
+                },
+                {
+                  "len": "28",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "28",
+                  "count": "1"
+                },
+                {
+                  "len": "31",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
