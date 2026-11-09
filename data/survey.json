@@ -530,6 +530,42 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794213464018agzx",
+          "habitat": "Boulder on flat, small cave",
+          "depth": "7.0",
+          "height": "1.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "4"
+                }
+              ]
+            },
+            {
+              "name": "Galjoen",
+              "lengths": [
+                {
+                  "len": "45",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Hound shark",
+              "lengths": [
+                {
+                  "len": "100",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
