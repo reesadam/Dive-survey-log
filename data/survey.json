@@ -1018,6 +1018,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o17942144688766otb",
+          "habitat": "Flat reef, medium cave",
+          "depth": "4.5",
+          "height": "0.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
