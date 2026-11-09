@@ -1935,6 +1935,46 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794216140498i6g8",
+          "habitat": "Sandy boulders, small cave",
+          "depth": "8.5",
+          "height": "0.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "7"
+                }
+              ]
+            },
+            {
+              "name": "Steentjie",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "25"
+                }
+              ]
+            },
+            {
+              "name": "Dassie",
+              "lengths": [
+                {
+                  "len": "28",
+                  "count": "7"
+                },
+                {
+                  "len": "31",
+                  "count": "3"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
