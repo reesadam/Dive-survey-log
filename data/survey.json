@@ -1233,6 +1233,24 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o17942148924033n8m",
+          "habitat": "Ledge, small cave",
+          "depth": "4.5",
+          "height": "3.0",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
