@@ -676,6 +676,46 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794232373802ot64",
+          "habitat": "Pinnacle - med cove",
+          "depth": "11.0",
+          "height": "5.0",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "20"
+                }
+              ]
+            },
+            {
+              "name": "Galjoen",
+              "lengths": [
+                {
+                  "len": "35",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "1"
+                },
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
