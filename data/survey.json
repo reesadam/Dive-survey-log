@@ -5355,6 +5355,60 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794219702942th5a",
+          "habitat": "Drop off onto boulders - large cove",
+          "depth": "13.0",
+          "height": "5.0",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "7"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "5"
+                }
+              ]
+            },
+            {
+              "name": "Steentjie",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "10"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "4"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "28",
+                  "count": "2"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
