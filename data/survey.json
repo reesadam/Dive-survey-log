@@ -2394,6 +2394,28 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o179421796517787bw",
+          "habitat": "Flat reef, small cave",
+          "depth": "2.0",
+          "height": "2.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Streepie",
+              "lengths": [
+                {
+                  "len": "12",
+                  "count": "100"
+                },
+                {
+                  "len": "12",
+                  "count": "100"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
