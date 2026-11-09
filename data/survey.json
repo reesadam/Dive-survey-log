@@ -2376,6 +2376,24 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794217916067bj40",
+          "habitat": "Boulder on flat reef, no cave",
+          "depth": "3.5",
+          "height": "1.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
