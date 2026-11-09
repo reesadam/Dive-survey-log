@@ -642,6 +642,24 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794213637785vdc6",
+          "habitat": "Flat reef, no cave",
+          "depth": "10.0",
+          "height": "0.3",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "4"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
