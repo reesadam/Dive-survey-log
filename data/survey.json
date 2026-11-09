@@ -913,6 +913,51 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o179423361342036t4",
+          "habitat": "Flat reef - no cove",
+          "depth": "20.0",
+          "height": "0.8",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Steentjie",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "5"
+                }
+              ]
+            },
+            {
+              "name": "Bankie",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "7"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
