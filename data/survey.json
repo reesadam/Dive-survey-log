@@ -2293,314 +2293,6 @@
       ]
     },
     {
-      "id": "t1794217680287",
-      "date": "1995-09-01",
-      "site": "Boordjie point",
-      "sea": "Slight",
-      "vis": "7",
-      "wind": "SW",
-      "temp": "13",
-      "obs": [
-        {
-          "id": "o1794217785145rbli",
-          "habitat": "Boulder on flat, small cave",
-          "depth": "2.0",
-          "height": "2.0",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Butterfish",
-              "lengths": [
-                {
-                  "len": "17",
-                  "count": "1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "o17942178115278nit",
-          "habitat": "Large boulder on boulders field, medium cave",
-          "depth": "4.0",
-          "height": "4.0",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Butterfish",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "3"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "o179421785858793mt",
-          "habitat": "Boulders, medium cave",
-          "depth": "2.0",
-          "height": "1.2",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Butterfish",
-              "lengths": [
-                {
-                  "len": "27",
-                  "count": "4"
-                },
-                {
-                  "len": "17",
-                  "count": "3"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "o1794217887963ex40",
-          "habitat": "Ledge reef, medium cave",
-          "depth": "2.0",
-          "height": "1.7",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Butterfish",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "3"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "o1794217916067bj40",
-          "habitat": "Boulder on flat reef, no cave",
-          "depth": "3.5",
-          "height": "1.1",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Hottentot",
-              "lengths": [
-                {
-                  "len": "17",
-                  "count": "1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "o179421796517787bw",
-          "habitat": "Flat reef, small cave",
-          "depth": "2.0",
-          "height": "2.1",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Streepie",
-              "lengths": [
-                {
-                  "len": "12",
-                  "count": "100"
-                },
-                {
-                  "len": "12",
-                  "count": "100"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "o1794218018243y7ye",
-          "habitat": "Boulder, small cave",
-          "depth": "2.0",
-          "height": "0.3",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Steenklip",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "1"
-                }
-              ]
-            },
-            {
-              "name": "Butterfish",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "o1794218125851c5qu",
-          "habitat": "Flat reef, no cave",
-          "depth": "4.0",
-          "height": "0.3",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Hottentot",
-              "lengths": [
-                {
-                  "len": "17",
-                  "count": "3"
-                }
-              ]
-            },
-            {
-              "name": "Butterfish",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "1"
-                }
-              ]
-            },
-            {
-              "name": "Hound shark",
-              "lengths": [
-                {
-                  "len": "100",
-                  "count": "1"
-                }
-              ]
-            },
-            {
-              "name": "Pyjama shark",
-              "lengths": [
-                {
-                  "len": "75",
-                  "count": "1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "o1794218156543ikj2",
-          "habitat": "Flat reef, no cave",
-          "depth": "6.0",
-          "height": "0.3",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Hottentot",
-              "lengths": [
-                {
-                  "len": "17",
-                  "count": "3"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "o1794218200873rbu1",
-          "habitat": "Boulder on flat, medium cave",
-          "depth": "5.0",
-          "height": "1.2",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Hottentot",
-              "lengths": [
-                {
-                  "len": "17",
-                  "count": "15"
-                }
-              ]
-            },
-            {
-              "name": "Butterfish",
-              "lengths": [
-                {
-                  "len": "28",
-                  "count": "1"
-                }
-              ]
-            },
-            {
-              "name": "Dassie",
-              "lengths": [
-                {
-                  "len": "28",
-                  "count": "1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "o179421825161724fn",
-          "habitat": "Boulder on plat, small cave",
-          "depth": "5.0",
-          "height": "1.1",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Hottentot",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "1"
-                }
-              ]
-            },
-            {
-              "name": "Haploblepharus edwardsii (Puffadder shyshark)",
-              "lengths": [
-                {
-                  "len": "37",
-                  "count": "1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "o1794218285147fzb0",
-          "habitat": "Pinnacle on flat, no cave",
-          "depth": "4.0",
-          "height": "1.7",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Dassie",
-              "lengths": [
-                {
-                  "len": "31",
-                  "count": "1"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "t1794217679422",
-      "date": "1995-09-01",
-      "site": "Boordjie point",
-      "sea": "Slight",
-      "vis": "7",
-      "wind": "SW",
-      "temp": "13",
-      "obs": []
-    },
-    {
       "id": "t1793860340628",
       "date": "1995-09-01",
       "site": "Black rock to boordjie",
@@ -3429,110 +3121,39 @@
       ]
     },
     {
-      "id": "t1793707553070",
-      "date": "1995-08-12",
-      "site": "Millers",
-      "sea": "Calm",
-      "vis": "15",
-      "wind": "SE",
-      "temp": "15",
+      "id": "t1794217680287",
+      "date": "1995-09-01",
+      "site": "Boordjie point",
+      "sea": "Slight",
+      "vis": "7",
+      "wind": "SW",
+      "temp": "13",
       "obs": [
         {
-          "id": "o17937077702241i7k",
-          "habitat": "Flat reef",
-          "depth": "4.0",
-          "height": "0.3",
+          "id": "o1794217785145rbli",
+          "habitat": "Boulder on flat, small cave",
+          "depth": "2.0",
+          "height": "2.0",
           "noFish": false,
           "species": [
             {
-              "name": "Galjoen",
-              "lengths": [
-                {
-                  "len": "40",
-                  "count": "1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "o1793707821182n4on",
-          "habitat": "Sandy boulders",
-          "depth": "4.0",
-          "height": "0.1",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Galjoen",
-              "lengths": [
-                {
-                  "len": "40",
-                  "count": "1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "o1793708242802zioz",
-          "habitat": "Boulders",
-          "depth": "4.0",
-          "height": "0.8",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Steenklip",
-              "lengths": [
-                {
-                  "len": "27",
-                  "count": "2"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "o1793708700139vgim",
-          "habitat": "Sandy reef",
-          "depth": "4.0",
-          "height": "0.5",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Haploblepharus edwardsii (Puffadder shyshark)",
-              "lengths": [
-                {
-                  "len": "40",
-                  "count": "1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "o1793708789403wjnn",
-          "habitat": "Flat reef",
-          "depth": "4.0",
-          "height": "0.5",
-          "noFish": true,
-          "species": []
-        },
-        {
-          "id": "o179370914761728x9",
-          "habitat": "Large boulder on flat",
-          "depth": "4.0",
-          "height": "2.1",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Steenklip",
+              "name": "Butterfish",
               "lengths": [
                 {
                   "len": "17",
-                  "count": "2"
+                  "count": "1"
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "id": "o17942178115278nit",
+          "habitat": "Large boulder on boulders field, medium cave",
+          "depth": "4.0",
+          "height": "4.0",
+          "noFish": false,
+          "species": [
             {
               "name": "Butterfish",
               "lengths": [
@@ -3545,52 +3166,143 @@
           ]
         },
         {
-          "id": "o1793709191617i8mz",
-          "habitat": "Flat reef",
-          "depth": "4.0",
-          "height": "0.4",
-          "noFish": true,
-          "species": []
+          "id": "o179421785858793mt",
+          "habitat": "Boulders, medium cave",
+          "depth": "2.0",
+          "height": "1.2",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "4"
+                },
+                {
+                  "len": "17",
+                  "count": "3"
+                }
+              ]
+            }
+          ]
         },
         {
-          "id": "o1793709193684ho1c",
-          "habitat": "Flat reef",
-          "depth": "4.0",
-          "height": "0.4",
-          "noFish": true,
-          "species": []
+          "id": "o1794217887963ex40",
+          "habitat": "Ledge reef, medium cave",
+          "depth": "2.0",
+          "height": "1.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            }
+          ]
         },
         {
-          "id": "o179371081890127p2",
-          "habitat": "Drop onto flat",
-          "depth": "5.0",
-          "height": "3.2",
+          "id": "o1794217916067bj40",
+          "habitat": "Boulder on flat reef, no cave",
+          "depth": "3.5",
+          "height": "1.1",
           "noFish": false,
           "species": [
             {
               "name": "Hottentot",
               "lengths": [
                 {
-                  "len": "21",
+                  "len": "17",
                   "count": "1"
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "id": "o179421796517787bw",
+          "habitat": "Flat reef, small cave",
+          "depth": "2.0",
+          "height": "2.1",
+          "noFish": false,
+          "species": [
             {
-              "name": "Big eye",
+              "name": "Streepie",
               "lengths": [
                 {
-                  "len": "21",
-                  "count": "1"
+                  "len": "12",
+                  "count": "100"
+                },
+                {
+                  "len": "12",
+                  "count": "100"
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "id": "o1794218018243y7ye",
+          "habitat": "Boulder, small cave",
+          "depth": "2.0",
+          "height": "0.3",
+          "noFish": false,
+          "species": [
             {
               "name": "Steenklip",
               "lengths": [
                 {
+                  "len": "22",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "o1794218125851c5qu",
+          "habitat": "Flat reef, no cave",
+          "depth": "4.0",
+          "height": "0.3",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
                   "len": "17",
                   "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Hound shark",
+              "lengths": [
+                {
+                  "len": "100",
+                  "count": "1"
                 }
               ]
             },
@@ -3598,16 +3310,7 @@
               "name": "Pyjama shark",
               "lengths": [
                 {
-                  "len": "60",
-                  "count": "3"
-                }
-              ]
-            },
-            {
-              "name": "Galjoen",
-              "lengths": [
-                {
-                  "len": "45",
+                  "len": "75",
                   "count": "1"
                 }
               ]
@@ -3615,18 +3318,36 @@
           ]
         },
         {
-          "id": "o17937126850065rw7",
-          "habitat": "Rocky pully",
-          "depth": "3.5",
-          "height": "1.7",
+          "id": "o1794218156543ikj2",
+          "habitat": "Flat reef, no cave",
+          "depth": "6.0",
+          "height": "0.3",
           "noFish": false,
           "species": [
             {
               "name": "Hottentot",
               "lengths": [
                 {
-                  "len": "22",
-                  "count": "1"
+                  "len": "17",
+                  "count": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "o1794218200873rbu1",
+          "habitat": "Boulder on flat, medium cave",
+          "depth": "5.0",
+          "height": "1.2",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "15"
                 }
               ]
             },
@@ -3634,20 +3355,34 @@
               "name": "Butterfish",
               "lengths": [
                 {
-                  "len": "21",
+                  "len": "28",
                   "count": "1"
                 }
               ]
             },
             {
-              "name": "Steenklip",
+              "name": "Dassie",
               "lengths": [
                 {
-                  "len": "17",
+                  "len": "28",
                   "count": "1"
-                },
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "o179421825161724fn",
+          "habitat": "Boulder on plat, small cave",
+          "depth": "5.0",
+          "height": "1.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
                 {
-                  "len": "21",
+                  "len": "22",
                   "count": "1"
                 }
               ]
@@ -3656,7 +3391,7 @@
               "name": "Haploblepharus edwardsii (Puffadder shyshark)",
               "lengths": [
                 {
-                  "len": "50",
+                  "len": "37",
                   "count": "1"
                 }
               ]
@@ -3664,513 +3399,34 @@
           ]
         },
         {
-          "id": "o1793712908952hfp5",
-          "habitat": "Drop off onto flat",
-          "depth": "5.0",
-          "height": "3.1",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Butterfish",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "2"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "o1793715430183vvp6",
-          "habitat": "Boulders",
-          "depth": "8.0",
-          "height": "4.5",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Hottentot",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "10"
-                }
-              ]
-            },
-            {
-              "name": "Big eye",
-              "lengths": [
-                {
-                  "len": "21",
-                  "count": "1"
-                }
-              ]
-            },
-            {
-              "name": "Butterfish",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "1"
-                },
-                {
-                  "len": "21",
-                  "count": "1"
-                }
-              ]
-            },
-            {
-              "name": "Roman",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "3"
-                }
-              ]
-            },
-            {
-              "name": "Galjoen",
-              "lengths": [
-                {
-                  "len": "40",
-                  "count": "5"
-                }
-              ]
-            },
-            {
-              "name": "Zebra",
-              "lengths": [
-                {
-                  "len": "27",
-                  "count": "3"
-                }
-              ]
-            },
-            {
-              "name": "Dassie",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "4"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "o17937159734537phm",
-          "habitat": "Boulders",
-          "depth": "7.0",
-          "height": "4.3",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Hottentot",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "3"
-                }
-              ]
-            },
-            {
-              "name": "Roman",
-              "lengths": [
-                {
-                  "len": "38",
-                  "count": "1"
-                },
-                {
-                  "len": "31",
-                  "count": "1"
-                },
-                {
-                  "len": "27",
-                  "count": "2"
-                }
-              ]
-            },
-            {
-              "name": "Butterfish",
-              "lengths": [
-                {
-                  "len": "27",
-                  "count": "1"
-                }
-              ]
-            },
-            {
-              "name": "Steenklip",
-              "lengths": [
-                {
-                  "len": "17",
-                  "count": "3"
-                }
-              ]
-            },
-            {
-              "name": "Zebra",
-              "lengths": [
-                {
-                  "len": "28",
-                  "count": "1"
-                },
-                {
-                  "len": "22",
-                  "count": "1"
-                },
-                {
-                  "len": "31",
-                  "count": "1"
-                }
-              ]
-            },
-            {
-              "name": "Galjoen",
-              "lengths": [
-                {
-                  "len": "31",
-                  "count": "3"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "o1793716346963b5y8",
-          "habitat": "Pinnacle next to sand",
-          "depth": "7.0",
-          "height": "3.1",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Dassie",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "15"
-                }
-              ]
-            },
-            {
-              "name": "Zebra",
-              "lengths": [
-                {
-                  "len": "28",
-                  "count": "4"
-                }
-              ]
-            },
-            {
-              "name": "Roman",
-              "lengths": [
-                {
-                  "len": "21",
-                  "count": "1"
-                },
-                {
-                  "len": "27",
-                  "count": "1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "o17937164740590qxk",
-          "habitat": "Rocky pully",
-          "depth": "6.0",
+          "id": "o1794218285147fzb0",
+          "habitat": "Pinnacle on flat, no cave",
+          "depth": "4.0",
           "height": "1.7",
           "noFish": false,
           "species": [
             {
-              "name": "Roman",
+              "name": "Dassie",
               "lengths": [
                 {
                   "len": "31",
                   "count": "1"
-                },
-                {
-                  "len": "27",
-                  "count": "1"
-                }
-              ]
-            },
-            {
-              "name": "Hottentot",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "3"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "o1793716855760wgfp",
-          "habitat": "Boulders",
-          "depth": "7.0",
-          "height": "1.7",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Zebra",
-              "lengths": [
-                {
-                  "len": "27",
-                  "count": "1"
-                },
-                {
-                  "len": "22",
-                  "count": "1"
-                }
-              ]
-            },
-            {
-              "name": "Roman",
-              "lengths": [
-                {
-                  "len": "35",
-                  "count": "1"
-                }
-              ]
-            },
-            {
-              "name": "Janbruin",
-              "lengths": [
-                {
-                  "len": "27",
-                  "count": "1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "o17938661137356f62",
-          "habitat": "Boulders",
-          "depth": "7.0",
-          "height": "2.7",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Hottentot",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "3"
-                }
-              ]
-            },
-            {
-              "name": "Roman",
-              "lengths": [
-                {
-                  "len": "36",
-                  "count": "1"
-                },
-                {
-                  "len": "27",
-                  "count": "1"
-                },
-                {
-                  "len": "22",
-                  "count": "1"
-                }
-              ]
-            },
-            {
-              "name": "Janbruin",
-              "lengths": [
-                {
-                  "len": "27",
-                  "count": "1"
-                }
-              ]
-            },
-            {
-              "name": "Butterfish",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "o1793867705236qph8",
-          "habitat": "Boulders",
-          "depth": "7.0",
-          "height": "1.7",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Hottentot",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "3"
-                }
-              ]
-            },
-            {
-              "name": "Dassie",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "2"
-                }
-              ]
-            },
-            {
-              "name": "Roman",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "3"
-                },
-                {
-                  "len": "17",
-                  "count": "1"
-                }
-              ]
-            },
-            {
-              "name": "Steenklip",
-              "lengths": [
-                {
-                  "len": "17",
-                  "count": "3"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "o1793867854883rbm6",
-          "habitat": "Boulders",
-          "depth": "6.0",
-          "height": "0.8",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Hottentot",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "5"
-                }
-              ]
-            },
-            {
-              "name": "Dassie",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "5"
-                }
-              ]
-            },
-            {
-              "name": "Steenklip",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "3"
-                }
-              ]
-            },
-            {
-              "name": "Roman",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "4"
-                },
-                {
-                  "len": "17",
-                  "count": "1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "o1793872726869629y",
-          "habitat": "Drop onto boulder",
-          "depth": "4.5",
-          "height": "4.5",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Hottentot",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "1"
-                }
-              ]
-            },
-            {
-              "name": "Butterfish",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "o1793872838340xrbl",
-          "habitat": "Boulders",
-          "depth": "6.0",
-          "height": "1.2",
-          "noFish": false,
-          "species": [
-            {
-              "name": "Hottentot",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "8"
-                }
-              ]
-            },
-            {
-              "name": "Dassie",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "7"
-                }
-              ]
-            },
-            {
-              "name": "Galjoen",
-              "lengths": [
-                {
-                  "len": "31",
-                  "count": "1"
-                }
-              ]
-            },
-            {
-              "name": "Roman",
-              "lengths": [
-                {
-                  "len": "22",
-                  "count": "2"
                 }
               ]
             }
           ]
         }
       ]
+    },
+    {
+      "id": "t1794217679422",
+      "date": "1995-09-01",
+      "site": "Boordjie point",
+      "sea": "Slight",
+      "vis": "7",
+      "wind": "SW",
+      "temp": "13",
+      "obs": []
     },
     {
       "id": "t1793882416480",
@@ -5808,6 +5064,861 @@
                 {
                   "len": "40",
                   "count": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "o1794217895740dh3d",
+          "habitat": "Pinnacle - large cove",
+          "depth": "10.0",
+          "height": "3.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "7"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                },
+                {
+                  "len": "38",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steentjie",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "5"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "4"
+                },
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "31",
+                  "count": "1"
+                },
+                {
+                  "len": "22",
+                  "count": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "o1794218581597nqi3",
+          "habitat": "Boulders - med cove",
+          "depth": "13.0",
+          "height": "2.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "4"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "4"
+                }
+              ]
+            },
+            {
+              "name": "Milkfish",
+              "lengths": [
+                {
+                  "len": "23",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t1793707553070",
+      "date": "1995-08-12",
+      "site": "Millers",
+      "sea": "Calm",
+      "vis": "15",
+      "wind": "SE",
+      "temp": "15",
+      "obs": [
+        {
+          "id": "o17937077702241i7k",
+          "habitat": "Flat reef",
+          "depth": "4.0",
+          "height": "0.3",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Galjoen",
+              "lengths": [
+                {
+                  "len": "40",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "o1793707821182n4on",
+          "habitat": "Sandy boulders",
+          "depth": "4.0",
+          "height": "0.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Galjoen",
+              "lengths": [
+                {
+                  "len": "40",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "o1793708242802zioz",
+          "habitat": "Boulders",
+          "depth": "4.0",
+          "height": "0.8",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "o1793708700139vgim",
+          "habitat": "Sandy reef",
+          "depth": "4.0",
+          "height": "0.5",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Haploblepharus edwardsii (Puffadder shyshark)",
+              "lengths": [
+                {
+                  "len": "40",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "o1793708789403wjnn",
+          "habitat": "Flat reef",
+          "depth": "4.0",
+          "height": "0.5",
+          "noFish": true,
+          "species": []
+        },
+        {
+          "id": "o179370914761728x9",
+          "habitat": "Large boulder on flat",
+          "depth": "4.0",
+          "height": "2.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "o1793709191617i8mz",
+          "habitat": "Flat reef",
+          "depth": "4.0",
+          "height": "0.4",
+          "noFish": true,
+          "species": []
+        },
+        {
+          "id": "o1793709193684ho1c",
+          "habitat": "Flat reef",
+          "depth": "4.0",
+          "height": "0.4",
+          "noFish": true,
+          "species": []
+        },
+        {
+          "id": "o179371081890127p2",
+          "habitat": "Drop onto flat",
+          "depth": "5.0",
+          "height": "3.2",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Big eye",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Pyjama shark",
+              "lengths": [
+                {
+                  "len": "60",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Galjoen",
+              "lengths": [
+                {
+                  "len": "45",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "o17937126850065rw7",
+          "habitat": "Rocky pully",
+          "depth": "3.5",
+          "height": "1.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "1"
+                },
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Haploblepharus edwardsii (Puffadder shyshark)",
+              "lengths": [
+                {
+                  "len": "50",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "o1793712908952hfp5",
+          "habitat": "Drop off onto flat",
+          "depth": "5.0",
+          "height": "3.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "o1793715430183vvp6",
+          "habitat": "Boulders",
+          "depth": "8.0",
+          "height": "4.5",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "10"
+                }
+              ]
+            },
+            {
+              "name": "Big eye",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "1"
+                },
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Galjoen",
+              "lengths": [
+                {
+                  "len": "40",
+                  "count": "5"
+                }
+              ]
+            },
+            {
+              "name": "Zebra",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Dassie",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "o17937159734537phm",
+          "habitat": "Boulders",
+          "depth": "7.0",
+          "height": "4.3",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "38",
+                  "count": "1"
+                },
+                {
+                  "len": "31",
+                  "count": "1"
+                },
+                {
+                  "len": "27",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Zebra",
+              "lengths": [
+                {
+                  "len": "28",
+                  "count": "1"
+                },
+                {
+                  "len": "22",
+                  "count": "1"
+                },
+                {
+                  "len": "31",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Galjoen",
+              "lengths": [
+                {
+                  "len": "31",
+                  "count": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "o1793716346963b5y8",
+          "habitat": "Pinnacle next to sand",
+          "depth": "7.0",
+          "height": "3.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Dassie",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "15"
+                }
+              ]
+            },
+            {
+              "name": "Zebra",
+              "lengths": [
+                {
+                  "len": "28",
+                  "count": "4"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "1"
+                },
+                {
+                  "len": "27",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "o17937164740590qxk",
+          "habitat": "Rocky pully",
+          "depth": "6.0",
+          "height": "1.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "31",
+                  "count": "1"
+                },
+                {
+                  "len": "27",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "o1793716855760wgfp",
+          "habitat": "Boulders",
+          "depth": "7.0",
+          "height": "1.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Zebra",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "1"
+                },
+                {
+                  "len": "22",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "35",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Janbruin",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "o17938661137356f62",
+          "habitat": "Boulders",
+          "depth": "7.0",
+          "height": "2.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "36",
+                  "count": "1"
+                },
+                {
+                  "len": "27",
+                  "count": "1"
+                },
+                {
+                  "len": "22",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Janbruin",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "o1793867705236qph8",
+          "habitat": "Boulders",
+          "depth": "7.0",
+          "height": "1.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Dassie",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                },
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "o1793867854883rbm6",
+          "habitat": "Boulders",
+          "depth": "6.0",
+          "height": "0.8",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "5"
+                }
+              ]
+            },
+            {
+              "name": "Dassie",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "5"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "4"
+                },
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "o1793872726869629y",
+          "habitat": "Drop onto boulder",
+          "depth": "4.5",
+          "height": "4.5",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "o1793872838340xrbl",
+          "habitat": "Boulders",
+          "depth": "6.0",
+          "height": "1.2",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "8"
+                }
+              ]
+            },
+            {
+              "name": "Dassie",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "7"
+                }
+              ]
+            },
+            {
+              "name": "Galjoen",
+              "lengths": [
+                {
+                  "len": "31",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "2"
                 }
               ]
             }
@@ -10495,9 +10606,9 @@
     "Bankie",
     "Red Roman",
     "Dassie",
-    "Steenbrass",
-    "Haploblepharus edwardsii (Puffadder shyshark)",
     "Galjoen",
+    "Haploblepharus edwardsii (Puffadder shyshark)",
+    "Steenbrass",
     "Wildeperd",
     "Zebra",
     "Pixi",
@@ -10513,8 +10624,8 @@
     "t1793696201882",
     "t1793624202895",
     "t1793690045979",
-    "t1793696784149",
     "t1793696854046",
+    "t1793696784149",
     "obs:o17936984184417x0b",
     "obs:o179370799006610iq",
     "obs:o1793711058870wsqa",
