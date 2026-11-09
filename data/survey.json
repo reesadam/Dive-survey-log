@@ -1,6 +1,16 @@
 {
   "trips": [
     {
+      "id": "t1794211715204",
+      "date": "1995-09-30",
+      "site": "boordjie point in the deep",
+      "sea": "Calm",
+      "vis": "8",
+      "wind": "",
+      "temp": "13",
+      "obs": []
+    },
+    {
       "id": "t1793860340628",
       "date": "1995-09-01",
       "site": "Black rock to boordjie",
