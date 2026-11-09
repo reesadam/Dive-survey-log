@@ -895,6 +895,24 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794233518950m6ov",
+          "habitat": "Flat reef - no cove",
+          "depth": "19.0",
+          "height": "0.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "7"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
