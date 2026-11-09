@@ -347,6 +347,37 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794212464285grq8",
+          "habitat": "Boulders on sand, small cave",
+          "depth": "19.0",
+          "height": "1.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "3"
+                },
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "4"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
