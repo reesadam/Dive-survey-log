@@ -137,6 +137,72 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794234898335266h",
+          "habitat": "Vertical drop off - large cove",
+          "depth": "19.0",
+          "height": "5.0",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "13"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "39",
+                  "count": "1"
+                },
+                {
+                  "len": "22",
+                  "count": "4"
+                },
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "7"
+                }
+              ]
+            },
+            {
+              "name": "Janbruin",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "2"
+                },
+                {
+                  "len": "35",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Milkfish",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
