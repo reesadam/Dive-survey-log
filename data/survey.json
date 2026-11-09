@@ -1882,6 +1882,59 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794216047656zzjp",
+          "habitat": "Ledge onto boulders, medium cave",
+          "depth": "9.5",
+          "height": "1.2",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "33",
+                  "count": "1"
+                },
+                {
+                  "len": "27",
+                  "count": "4"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Steentjie",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "10"
+                }
+              ]
+            },
+            {
+              "name": "Dassie",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "15"
+                },
+                {
+                  "len": "31",
+                  "count": "5"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
