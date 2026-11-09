@@ -2443,6 +2443,51 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794218125851c5qu",
+          "habitat": "Flat reef, no cave",
+          "depth": "4.0",
+          "height": "0.3",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Hound shark",
+              "lengths": [
+                {
+                  "len": "100",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Pyjama shark",
+              "lengths": [
+                {
+                  "len": "75",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
