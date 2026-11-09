@@ -1653,6 +1653,55 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794215652740o77y",
+          "habitat": "Double ledge, medium cave",
+          "depth": "8.5",
+          "height": "3.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "4"
+                }
+              ]
+            },
+            {
+              "name": "Steentjie",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "10"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "4"
+                }
+              ]
+            },
+            {
+              "name": "Dassie",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "7"
+                },
+                {
+                  "len": "22",
+                  "count": "4"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
