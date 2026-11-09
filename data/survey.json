@@ -435,6 +435,78 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794210798050axei",
+          "habitat": "ledge reef, large cave",
+          "depth": "14.0",
+          "height": "1.2",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "7"
+                }
+              ]
+            },
+            {
+              "name": "Big eye",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Steentjie",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "10"
+                }
+              ]
+            },
+            {
+              "name": "Janbruin",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Bankie",
+              "lengths": [
+                {
+                  "len": "32",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Dassie",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "2"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
