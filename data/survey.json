@@ -230,6 +230,69 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794226206830fj91",
+          "habitat": "Drop off - med cove",
+          "depth": "17.0",
+          "height": "3.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "5"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "4"
+                }
+              ]
+            },
+            {
+              "name": "Steentjie",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "10"
+                }
+              ]
+            },
+            {
+              "name": "Zebra",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "2"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
