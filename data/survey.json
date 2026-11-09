@@ -1161,6 +1161,24 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794214715706rtsi",
+          "habitat": "Boulders, medium cave",
+          "depth": "5.0",
+          "height": "1.2",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "28",
+                  "count": "2"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
