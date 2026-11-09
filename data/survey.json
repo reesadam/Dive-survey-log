@@ -1828,6 +1828,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794215887262elwj",
+          "habitat": "Boulder ledge, small cave",
+          "depth": "4.0",
+          "height": "1.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
