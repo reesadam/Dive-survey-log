@@ -203,6 +203,55 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794235697039e0rp",
+          "habitat": "Cracked low reef - large cove",
+          "depth": "18.0",
+          "height": "2.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "5"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "2"
+                },
+                {
+                  "len": "40",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "7"
+                }
+              ]
+            },
+            {
+              "name": "Zebra",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
