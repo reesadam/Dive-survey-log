@@ -8,7 +8,48 @@
       "vis": "6",
       "wind": "NW",
       "temp": "14",
-      "obs": []
+      "obs": [
+        {
+          "id": "o1794224392156zo0j",
+          "habitat": "Boulders next to sand - med cove",
+          "depth": "17.0",
+          "height": "1.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "2"
+                },
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "t1794211715204",
