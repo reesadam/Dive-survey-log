@@ -102,6 +102,73 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794212098190t4p2",
+          "habitat": "Boulders, large cave",
+          "depth": "19.0",
+          "height": "2.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "12"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "7"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "38",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Pixi",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "3"
+                },
+                {
+                  "len": "17",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Janbruin",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "3"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
