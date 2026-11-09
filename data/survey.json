@@ -5316,6 +5316,45 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794219542452r7pa",
+          "habitat": "Pinnacle onto boulders - large cove",
+          "depth": "14.0",
+          "height": "5.0",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "10"
+                },
+                {
+                  "len": "31",
+                  "count": "5"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "31",
+                  "count": "1"
+                },
+                {
+                  "len": "22",
+                  "count": "3"
+                },
+                {
+                  "len": "8",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
