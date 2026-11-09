@@ -1435,6 +1435,82 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794215347295bfvr",
+          "habitat": "boulder drop off, large cave",
+          "depth": "10.5",
+          "height": "3.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "7"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "28",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Steentjie",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "10"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "3"
+                },
+                {
+                  "len": "33",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Streepie",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "25"
+                }
+              ]
+            },
+            {
+              "name": "Dassie",
+              "lengths": [
+                {
+                  "len": "31",
+                  "count": "4"
+                }
+              ]
+            },
+            {
+              "name": "Milkfish",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "2"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
