@@ -305,6 +305,73 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o17942105014065owf",
+          "habitat": "Flat reef, medium cave",
+          "depth": "13.0",
+          "height": "0.8",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "4"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "4"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "33",
+                  "count": "2"
+                },
+                {
+                  "len": "22",
+                  "count": "4"
+                }
+              ]
+            },
+            {
+              "name": "Dassie",
+              "lengths": [
+                {
+                  "len": "31",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Blue hottentot",
+              "lengths": [
+                {
+                  "len": "31",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
