@@ -5453,6 +5453,59 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794220007358o2fn",
+          "habitat": "Drop off on sand - large cove",
+          "depth": "12.5",
+          "height": "3.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "7"
+                },
+                {
+                  "len": "34",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Steentjie",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "20"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "28",
+                  "count": "1"
+                },
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
