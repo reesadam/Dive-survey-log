@@ -48,6 +48,37 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794224766650rfpz",
+          "habitat": "Ledge reef - med cove",
+          "depth": "16.5",
+          "height": "2.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "4"
+                },
+                {
+                  "len": "25",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Steentjie",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "5"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
