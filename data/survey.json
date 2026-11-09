@@ -698,6 +698,55 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794211372769c3ih",
+          "habitat": "Ledge onto flat, large cave",
+          "depth": "14.0",
+          "height": "1.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "4"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                },
+                {
+                  "len": "40",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "3"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
