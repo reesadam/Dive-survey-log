@@ -1,16 +1,6 @@
 {
   "trips": [
     {
-      "id": "t1794217679422",
-      "date": "1995-09-01",
-      "site": "Boordjie point",
-      "sea": "Slight",
-      "vis": "7",
-      "wind": "SW",
-      "temp": "13",
-      "obs": []
-    },
-    {
       "id": "t1794211715204",
       "date": "1995-09-30",
       "site": "boordjie point in the deep",
@@ -2301,6 +2291,26 @@
           ]
         }
       ]
+    },
+    {
+      "id": "t1794217680287",
+      "date": "1995-09-01",
+      "site": "Boordjie point",
+      "sea": "Slight",
+      "vis": "7",
+      "wind": "SW",
+      "temp": "13",
+      "obs": []
+    },
+    {
+      "id": "t1794217679422",
+      "date": "1995-09-01",
+      "site": "Boordjie point",
+      "sea": "Slight",
+      "vis": "7",
+      "wind": "SW",
+      "temp": "13",
+      "obs": []
     },
     {
       "id": "t1793860340628",
