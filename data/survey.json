@@ -66,6 +66,103 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794209287340htun",
+          "habitat": "Pinnacle onto boulder, medium cave",
+          "depth": "11.0",
+          "height": "5.0",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "10"
+                }
+              ]
+            },
+            {
+              "name": "Streepie",
+              "lengths": [
+                {
+                  "len": "12",
+                  "count": "70"
+                }
+              ]
+            },
+            {
+              "name": "Janbruin",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "4"
+                },
+                {
+                  "len": "35",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "31",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "45",
+                  "count": "1"
+                },
+                {
+                  "len": "22",
+                  "count": "3"
+                },
+                {
+                  "len": "33",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Galjoen",
+              "lengths": [
+                {
+                  "len": "32",
+                  "count": "7"
+                }
+              ]
+            },
+            {
+              "name": "Dassie",
+              "lengths": [
+                {
+                  "len": "32",
+                  "count": "4"
+                },
+                {
+                  "len": "22",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "7"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
