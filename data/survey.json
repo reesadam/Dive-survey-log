@@ -566,6 +566,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794213503843ug3m",
+          "habitat": "Pinnacle on reef flat, medium cave",
+          "depth": "8.0",
+          "height": "1.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "7"
+                }
+              ]
+            },
+            {
+              "name": "Janbruin",
+              "lengths": [
+                {
+                  "len": "28",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
