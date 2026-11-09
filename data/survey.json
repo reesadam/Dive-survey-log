@@ -537,6 +537,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o17942315856251zid",
+          "habitat": "Boulders - small cove",
+          "depth": "14.0",
+          "height": "1.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Zebra",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "3"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
