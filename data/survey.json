@@ -2318,6 +2318,24 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o17942178115278nit",
+          "habitat": "Large boulder on boulders field, medium cave",
+          "depth": "4.0",
+          "height": "4.0",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
