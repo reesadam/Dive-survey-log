@@ -3968,6 +3968,24 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794289693143bgy3",
+          "habitat": "Flat reef, no cave",
+          "depth": "5.5",
+          "height": "0.3",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Pyjama shark",
+              "lengths": [
+                {
+                  "len": "40",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
