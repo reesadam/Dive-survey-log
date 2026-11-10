@@ -84,6 +84,42 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794317494132ckw9",
+          "habitat": "Drop onto boulders - med cove",
+          "depth": "17.0",
+          "height": "2.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "4"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
