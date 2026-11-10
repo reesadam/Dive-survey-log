@@ -4040,6 +4040,55 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794289850903ka5j",
+          "habitat": "Boulder on cobbles, medium cave",
+          "depth": "10.0",
+          "height": "1.2",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "29",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "28",
+                  "count": "1"
+                },
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Big eye",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "2"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
