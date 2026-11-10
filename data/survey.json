@@ -921,6 +921,59 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794316801887cduq",
+          "habitat": "Ledge reef - med cove",
+          "depth": "17.0",
+          "height": "1.3",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "1"
+                },
+                {
+                  "len": "17",
+                  "count": "1"
+                },
+                {
+                  "len": "27",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Haploblepharus edwardsii (Puffadder shyshark)",
+              "lengths": [
+                {
+                  "len": "37",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
