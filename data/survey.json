@@ -693,6 +693,46 @@
           "height": "0.3",
           "noFish": true,
           "species": []
+        },
+        {
+          "id": "o1794314818075mpvn",
+          "habitat": "Drop onto sand - med cove",
+          "depth": "20.0",
+          "height": "5.0",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "5"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "3"
+                },
+                {
+                  "len": "35",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
