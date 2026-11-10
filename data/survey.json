@@ -395,6 +395,37 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794321709519ofy6",
+          "habitat": "Cracked boulders - med cove",
+          "depth": "19.0",
+          "height": "4.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "37",
+                  "count": "1"
+                },
+                {
+                  "len": "22",
+                  "count": "4"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
