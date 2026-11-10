@@ -733,6 +733,42 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794315431824b666",
+          "habitat": "Boulders on sand - med cove",
+          "depth": "19.0",
+          "height": "2.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "5"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "28",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
