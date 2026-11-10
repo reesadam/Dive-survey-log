@@ -448,6 +448,50 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o179432188654691cd",
+          "habitat": "Sandy boulders - med cove",
+          "depth": "19.0",
+          "height": "2.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "1"
+                },
+                {
+                  "len": "27",
+                  "count": "1"
+                },
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "2"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
