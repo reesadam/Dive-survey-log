@@ -426,6 +426,28 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794321778948x18p",
+          "habitat": "Large boulder on small ones- med cove",
+          "depth": "19.0",
+          "height": "2.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "5"
+                },
+                {
+                  "len": "17",
+                  "count": "2"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
