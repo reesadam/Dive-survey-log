@@ -3986,6 +3986,60 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o179428977408954pc",
+          "habitat": "Boulder on cobbles, medium cave",
+          "depth": "10.0",
+          "height": "1.2",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "10"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Big eye",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "40"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Dassie",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "4"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
