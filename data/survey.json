@@ -11506,6 +11506,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794293044130zxzv",
+          "habitat": "Boulders on cobbles, medium cave",
+          "depth": "9.5",
+          "height": "1.2",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "6"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "2"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
