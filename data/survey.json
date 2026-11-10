@@ -11533,6 +11533,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o17942930938322sl9",
+          "habitat": "Drop onto sandy cobbles, small cave",
+          "depth": "10.0",
+          "height": "2.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
