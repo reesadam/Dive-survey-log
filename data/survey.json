@@ -346,6 +346,81 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794305779809gtd2",
+          "habitat": "Drop off - large cove",
+          "depth": "19.0",
+          "height": "5.0",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "15"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "37",
+                  "count": "1"
+                },
+                {
+                  "len": "22",
+                  "count": "4"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "10"
+                }
+              ]
+            },
+            {
+              "name": "Janbruin",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "1"
+                },
+                {
+                  "len": "24",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Zebra",
+              "lengths": [
+                {
+                  "len": "37",
+                  "count": "1"
+                },
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Baardman",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "6"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
