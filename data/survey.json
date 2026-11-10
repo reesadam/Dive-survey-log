@@ -11800,6 +11800,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794293515778cj1o",
+          "habitat": "Drop off onto cobbles, large cave",
+          "depth": "10.0",
+          "height": "2.5",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "5"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
