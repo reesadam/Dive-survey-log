@@ -11376,6 +11376,42 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794292847090ovni",
+          "habitat": "Pinnacle o boulders, medium cave",
+          "depth": "8.0",
+          "height": "4.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "7"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "4"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
