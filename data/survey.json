@@ -12311,6 +12311,51 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794294812305htei",
+          "habitat": "Boulder on cobbles, large cave",
+          "depth": "12.0",
+          "height": "2.3",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Steentjie",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "5"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Janbruin",
+              "lengths": [
+                {
+                  "len": "23",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
