@@ -12016,6 +12016,28 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o17942939928730nkn",
+          "habitat": "Boulder on cobble, no cave",
+          "depth": "8.5",
+          "height": "2.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "5"
+                },
+                {
+                  "len": "17",
+                  "count": "2"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
