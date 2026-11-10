@@ -12257,6 +12257,60 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794294727523dhrx",
+          "habitat": "Boulder drop off, large cave",
+          "depth": "11.0",
+          "height": "2.6",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Steentjie",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "25"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Janbruin",
+              "lengths": [
+                {
+                  "len": "28",
+                  "count": "7"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
