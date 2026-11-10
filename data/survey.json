@@ -160,6 +160,46 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794320080705xwfe",
+          "habitat": "Large boulder on sand - med cove",
+          "depth": "17.0",
+          "height": "3.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "10"
+                },
+                {
+                  "len": "33",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
