@@ -254,6 +254,24 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o17943212344462mti",
+          "habitat": "Low rock - no cove",
+          "depth": "19.0",
+          "height": "1.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
