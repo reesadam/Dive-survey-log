@@ -492,6 +492,51 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794306127947qz4c",
+          "habitat": "Large boulders - large cove",
+          "depth": "23.0",
+          "height": "2.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "5"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steentjie",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "5"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "2"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
