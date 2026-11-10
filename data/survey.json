@@ -4432,6 +4432,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794290459317hioq",
+          "habitat": "Pinnacle on sandy reef, medium cave",
+          "depth": "7.0",
+          "height": "2.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "12"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "28",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
