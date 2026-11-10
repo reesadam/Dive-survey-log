@@ -595,6 +595,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794313600403uz4l",
+          "habitat": "Drop off - no cove",
+          "depth": "17.0",
+          "height": "3.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Steentjie",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "15"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
