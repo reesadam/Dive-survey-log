@@ -4459,6 +4459,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794290496692d4be",
+          "habitat": "Flat reef, no cave",
+          "depth": "11.0",
+          "height": "0.8",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
