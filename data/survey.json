@@ -4401,6 +4401,37 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o179429041010963ds",
+          "habitat": "Boulders, large cave",
+          "depth": "11.0",
+          "height": "1.2",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "35",
+                  "count": "1"
+                },
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
