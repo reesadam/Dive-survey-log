@@ -11578,6 +11578,14 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794293184124h1mg",
+          "habitat": "Cobbles, no cave",
+          "depth": "12.0",
+          "height": "0.7",
+          "noFish": true,
+          "species": []
         }
       ]
     },
