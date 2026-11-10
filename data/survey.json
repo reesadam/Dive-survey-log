@@ -4486,6 +4486,42 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o17942905507015u31",
+          "habitat": "Flat reef, no cave",
+          "depth": "11.0",
+          "height": "0.3",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
