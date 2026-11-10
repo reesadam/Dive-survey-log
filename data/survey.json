@@ -11845,6 +11845,42 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794293619154kyzq",
+          "habitat": "Boulder on cobles, medium cave",
+          "depth": "10.0",
+          "height": "1.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "4"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Blue hottentot",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
