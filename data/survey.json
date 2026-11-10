@@ -622,6 +622,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o179431447114854x7",
+          "habitat": "Flat low reef - small cove",
+          "depth": "19.0",
+          "height": "1.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "5"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "2"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
