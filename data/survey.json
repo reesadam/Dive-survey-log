@@ -120,6 +120,46 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794317638522ym09",
+          "habitat": "Drop off onto boulders - large cove",
+          "depth": "17.0",
+          "height": "2.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "7"
+                },
+                {
+                  "len": "25",
+                  "count": "10"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "31",
+                  "count": "2"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
