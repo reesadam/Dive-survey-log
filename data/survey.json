@@ -474,6 +474,24 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794306004251hpn4",
+          "habitat": "Flat reef - no cove",
+          "depth": "22.0",
+          "height": "0.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Steentjie",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "2"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
