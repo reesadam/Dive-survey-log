@@ -11488,6 +11488,24 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794292999154hk4w",
+          "habitat": "Cobbly drop off, medium cave",
+          "depth": "11.0",
+          "height": "0.8",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "2"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
