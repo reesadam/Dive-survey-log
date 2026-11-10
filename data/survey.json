@@ -11586,6 +11586,33 @@
           "height": "0.7",
           "noFish": true,
           "species": []
+        },
+        {
+          "id": "o1794293230244p0k6",
+          "habitat": "Boulder on cobbles, no cave",
+          "depth": "13.0",
+          "height": "1.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Blue hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
