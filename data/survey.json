@@ -11881,6 +11881,51 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794293710457wb9i",
+          "habitat": "large sandy boulders, medium  cave",
+          "depth": "13.0",
+          "height": "1.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "10"
+                }
+              ]
+            },
+            {
+              "name": "Roman",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Steentjie",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "25"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "2"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
