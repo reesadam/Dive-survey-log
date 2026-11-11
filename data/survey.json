@@ -120,6 +120,46 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o179440784901225sv",
+          "habitat": "Boulder pully - med cove",
+          "depth": "5.0",
+          "height": "2.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "1"
+                },
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Dassie",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
