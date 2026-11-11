@@ -1,6 +1,16 @@
 {
   "trips": [
     {
+      "id": "t1794407311261",
+      "date": "1995-10-11",
+      "site": "Mullers point",
+      "sea": "Calm",
+      "vis": "8",
+      "wind": "NW",
+      "temp": "14",
+      "obs": []
+    },
+    {
       "id": "t1794317096746",
       "date": "1995-10-06",
       "site": "Deep side of boat rock",
