@@ -80,6 +80,46 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o1794407733765vr43",
+          "habitat": "Boulder blocks - large cove",
+          "depth": "6.0",
+          "height": "3.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "25",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "1"
+                },
+                {
+                  "len": "24",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "3"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
