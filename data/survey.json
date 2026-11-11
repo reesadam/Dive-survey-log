@@ -44,6 +44,42 @@
               ]
             }
           ]
+        },
+        {
+          "id": "o17944076243860m1f",
+          "habitat": "Boulder blocks - med cove",
+          "depth": "4.0",
+          "height": "3.1",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Hottentot",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "21",
+                  "count": "1"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "22",
+                  "count": "3"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
