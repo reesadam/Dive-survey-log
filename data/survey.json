@@ -8,7 +8,44 @@
       "vis": "8",
       "wind": "NW",
       "temp": "14",
-      "obs": []
+      "obs": [
+        {
+          "id": "o1794407538264n1g7",
+          "habitat": "Boulder blocks - large cove",
+          "depth": "5.0",
+          "height": "3.7",
+          "noFish": false,
+          "species": [
+            {
+              "name": "Butterfish",
+              "lengths": [
+                {
+                  "len": "27",
+                  "count": "2"
+                }
+              ]
+            },
+            {
+              "name": "Steenklip",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "3"
+                }
+              ]
+            },
+            {
+              "name": "Milkfish",
+              "lengths": [
+                {
+                  "len": "17",
+                  "count": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "t1794317096746",
